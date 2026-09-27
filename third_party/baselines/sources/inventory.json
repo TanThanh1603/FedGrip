@@ -1,0 +1,19 @@
+{
+  "already_native_in_fedccrl": [
+    "FedAvg",
+    "FedGA",
+    "FedIIR",
+    "FedSR",
+    "FedOMG"
+  ],
+  "installed_baselines": {
+    "FedAS": "fedas",
+    "FedBABU": "pfl",
+    "FedPAC": "pfl",
+    "FedRoD": "pfl",
+    "FedSAM": "pfl",
+    "PerAvg": "pfl",
+    "StableFDG": "stablefdg"
+  },
+  "scope": "Pinned upstream reference implementations. They retain their original frameworks and are not silently registered as native fedccrl algorithms."
+}

@@ -1,0 +1,191 @@
+{
+  "branch": "main",
+  "commit": "1a4f5fdb0111a11e92559f6caaa1392e4c181ac1",
+  "files": [
+    {
+      "bytes": 347,
+      "git_blob": "1d8f23856bc247a995acb80674b5798c42e3daf4",
+      "path": "Instructions.md",
+      "sha256": "a8f6c4f6277545b7440b235e8f030fb92b6fa493efd72538b02310b1fb0e4555"
+    },
+    {
+      "bytes": 2258,
+      "git_blob": "5eb6976be60e9295301ac2e1dea7f600a32b3e06",
+      "path": "README.md",
+      "sha256": "21aa5df7c77f5bec6200c934282ba53a11c9d0f8f7f7b228b637ac47f1fce3aa"
+    },
+    {
+      "bytes": 117,
+      "git_blob": "659e04c0e5460754e584806ee62a9463e158bc64",
+      "path": "system/examples.sh",
+      "sha256": "fd48c1f6b7b486778627d80eb06a1d4ac4ac0620ddbee3ad6aa6b6c51adc6425"
+    },
+    {
+      "bytes": 1987,
+      "git_blob": "6ae075843ea7068e6e48f28c457cb9dc400efef6",
+      "path": "system/flcore/clients/clientala.py",
+      "sha256": "48edf6a05810850ca32945a9de2bc26b92c4a9a5537f9fc61c65b7fdd082d9a3"
+    },
+    {
+      "bytes": 9733,
+      "git_blob": "925ad85e834944bb6280086da648b342e8aad351",
+      "path": "system/flcore/clients/clientas.py",
+      "sha256": "b7562c93ee2b4d8792f8dffd47f62a25a0c7e069183df901b88e262eed2bea60"
+    },
+    {
+      "bytes": 1828,
+      "git_blob": "0c3384b45f520fa83af6de3040df54f96edb5b49",
+      "path": "system/flcore/clients/clientavg.py",
+      "sha256": "9a25291f28c0801571706ec15e7d21d3a8ffca0e1c0ab05e199e60bef17545d3"
+    },
+    {
+      "bytes": 7761,
+      "git_blob": "00f944e25b0cd137b82e577033cd7f01b272c09a",
+      "path": "system/flcore/clients/clientbase.py",
+      "sha256": "f807b15b7432ab4b4796d58bd814e3f13496dee2f6618a4020ee6c0ea7cbdae3"
+    },
+    {
+      "bytes": 1619,
+      "git_blob": "32cdb92ed5c49f24b62abcacb7dc1572f0e64ca7",
+      "path": "system/flcore/clients/clientper.py",
+      "sha256": "86576198f0eb1aa736ab419615952cac7d6048de716451eaa7f7481ddaf6ab51"
+    },
+    {
+      "bytes": 3224,
+      "git_blob": "51a55371504113b5c7a3cd7f476eb5d907ce99c0",
+      "path": "system/flcore/clients/clientprox.py",
+      "sha256": "dfc0690617e9487ba4304e863ccdb5b36c79f713ac808d9f9cdd09bf12f9160b"
+    },
+    {
+      "bytes": 2614,
+      "git_blob": "8dcbc6fb54a7634a2dd13de93f66213c6bdaa9b0",
+      "path": "system/flcore/optimizers/fedoptimizer.py",
+      "sha256": "38803a76be477d76bc94b72ccb7ea483dfbc16efd1ed7eb0322e202cdfa50213"
+    },
+    {
+      "bytes": 2365,
+      "git_blob": "97ba11263259868bc97ed084a15d689da50d40de",
+      "path": "system/flcore/servers/serverala.py",
+      "sha256": "a5e640cde48e45b80212febf813a310690579e8ca2b2e3f2e26889787061d710"
+    },
+    {
+      "bytes": 5068,
+      "git_blob": "1302d0bb14693b082dc124e89b87d8fe38663214",
+      "path": "system/flcore/servers/serveras.py",
+      "sha256": "d59413d65bd1c89980041e6cda08e2cf70ced524b81a99d5201ffcfb5d94caf2"
+    },
+    {
+      "bytes": 2751,
+      "git_blob": "f9f368ab4b58ef2d3a0ee3be14f6226faebfd683",
+      "path": "system/flcore/servers/serveravg.py",
+      "sha256": "516e8482e2a06177db4b60aeda2e1519ee1bd5c1a14895a0e707777653e09008"
+    },
+    {
+      "bytes": 15133,
+      "git_blob": "324b55d3a67e24f337d4c6ece0ae4cdda7e3c108",
+      "path": "system/flcore/servers/serverbase.py",
+      "sha256": "7d93fa90bd9ff6918197d191e8f0681f02812fd1cce7286faae22da96cc14dff"
+    },
+    {
+      "bytes": 3362,
+      "git_blob": "69b9e46e8eb1f3505b9a25e7347f9ef69b8236c2",
+      "path": "system/flcore/servers/serverper.py",
+      "sha256": "dbcaa6c9d56dceccf1fa00ba23a912582378e2560e52852522bc9717e01b8505"
+    },
+    {
+      "bytes": 2213,
+      "git_blob": "f40fc5a5d3616d45e8624779d30cb162f3071d5b",
+      "path": "system/flcore/servers/serverprox.py",
+      "sha256": "270f28bf7d508e8068bcafeea9e97250699b913f90ecbf50baa7aa6a7047ac86"
+    },
+    {
+      "bytes": 2345,
+      "git_blob": "7d5f046d7ccf5129cfaf2124de836bbc9dc9e112",
+      "path": "system/flcore/trainmodel/alexnet.py",
+      "sha256": "b050f0c18ee4b8e44a8148b3cf1005f559229610cffc6d39a36dcb176beda326"
+    },
+    {
+      "bytes": 4033,
+      "git_blob": "0e2eb455e929f4dbfecdc2b3b69b38bfb25ac6ee",
+      "path": "system/flcore/trainmodel/bilstm.py",
+      "sha256": "e21ec13769ad28626bbd40f2d6a5e052416709d6db608408a2e0e4609729a825"
+    },
+    {
+      "bytes": 7171,
+      "git_blob": "2ba25804941634ff3f6783d0112e8376278808aa",
+      "path": "system/flcore/trainmodel/mobilenet_v2.py",
+      "sha256": "0076d52fa0cc23d7202adbd04cad753621076b9cbd87477a892868c01f99a7ee"
+    },
+    {
+      "bytes": 18651,
+      "git_blob": "c014c39eb27c5c6dbadd17b6b4d55196f1fa84be",
+      "path": "system/flcore/trainmodel/models.py",
+      "sha256": "0ffa8ae1c9ba694d45ee6ab0b0eed3fce2fdcc245105381380be6230cac51649"
+    },
+    {
+      "bytes": 10156,
+      "git_blob": "40228a5b85cdedb27ddefd535d82984e272b3aa0",
+      "path": "system/flcore/trainmodel/resnet.py",
+      "sha256": "8234c0313805660b4a28aebf36059d80c6bb951f223591168ea9b5be00042c98"
+    },
+    {
+      "bytes": 2583,
+      "git_blob": "5c3157f17dc4d8df6c11c78caab8a8f520835b56",
+      "path": "system/flcore/trainmodel/transformer.py",
+      "sha256": "a2f3da121adf5f0fc453a7238e674e17b6df1f20f686af12cad4c135bf615747"
+    },
+    {
+      "bytes": 361,
+      "git_blob": "aec76d86b389e36f7b50f3d9900e16fb8fb1d0b7",
+      "path": "system/get_mean_std.py",
+      "sha256": "410cc1cc299705567a0bd7f90c5e2481c23e3f1b167a67e0ea28ef07858d318a"
+    },
+    {
+      "bytes": 12140,
+      "git_blob": "7293b1939bfb68808f7cad0541892d13040b2570",
+      "path": "system/main.py",
+      "sha256": "9249697424d944e3c66957a928a67e00f5573b0600d90fcb8f9f205db1ccd275"
+    },
+    {
+      "bytes": 6472,
+      "git_blob": "4de997743800f54ed491d115b23cace4a818eed7",
+      "path": "system/utils/ALA.py",
+      "sha256": "407026d520329c9b5125ea5428cb037b793372cf432729a685dcc87c7ba6062d"
+    },
+    {
+      "bytes": 3107,
+      "git_blob": "f3fd6bbf01f1e71440cd6f4a9b8bd8c9045acb77",
+      "path": "system/utils/data_utils.py",
+      "sha256": "ab7593d80febb418d56a9bcda11af56019cca9ff2b1fe816b7a00ad85f223bb4"
+    },
+    {
+      "bytes": 2143,
+      "git_blob": "9da6d7d3ccd1e2f6c13aa118a10c3fdabd4639e0",
+      "path": "system/utils/dlg.py",
+      "sha256": "34e46d1725ac051ff6b585f615fa3bb67ba36fdb79434a8d37a1d9fb469c317d"
+    },
+    {
+      "bytes": 7749,
+      "git_blob": "da55b2d70ca850e897cb9678d88af1fe10dcb11f",
+      "path": "system/utils/mem_utils.py",
+      "sha256": "4c816b7fb1af42b1807d51c6c306abb613ba81b71d60eb42a7ffa691a726c337"
+    },
+    {
+      "bytes": 549,
+      "git_blob": "513b5c7a7a7bbf6ed8b83f7a613e55117867aac9",
+      "path": "system/utils/privacy.py",
+      "sha256": "51a191174799023e818329ee5b9cf373f3938b7da35aead8591ea12a7cb0bf60"
+    },
+    {
+      "bytes": 1068,
+      "git_blob": "c8f343eb5590ed47039bc0e947e8207a545e5134",
+      "path": "system/utils/result_utils.py",
+      "sha256": "3e5cac8b5256e98529a685359cb0e1ea918db4154cab24c38be0a28c2ae2e9c2"
+    }
+  ],
+  "installer_version": 2,
+  "provides": [
+    "FedAS"
+  ],
+  "repository": "https://github.com/xiyuanyang45/FedAS"
+}

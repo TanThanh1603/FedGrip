@@ -1,0 +1,423 @@
+{
+  "branch": "main",
+  "commit": "e1ddccabd1f4aab1443c117b472f4a5d65a74ad2",
+  "files": [
+    {
+      "bytes": 314,
+      "git_blob": "fc90b1fd39741a24e18f1e920fa59a8cbb2a4a1a",
+      "path": "FedOMG-DG/algorithms/fedsam/configs/default.py",
+      "sha256": "e5c117a8a5147683509f9d5552a0f74e06534065e08ef70c8b97ab154a3771c9"
+    },
+    {
+      "bytes": 1742,
+      "git_blob": "1ce913d0f248252093f4bf2391c199fb09864273",
+      "path": "FedOMG-DG/algorithms/fedsam/data/Fourier_Aug.py",
+      "sha256": "6d685a913da01f62edab4e7ce85c306aec38316dca60245058fcdece31d89d17"
+    },
+    {
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "FedOMG-DG/algorithms/fedsam/data/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1431,
+      "git_blob": "d4d7cedcf6fe4d9f13da7cdcf2a01f7f2e881d23",
+      "path": "FedOMG-DG/algorithms/fedsam/data/meta_dataset.py",
+      "sha256": "949d2c6ae556989b205b60f5ffd60cb91df49d28e7f5faedd34b21cfc7f149f0"
+    },
+    {
+      "bytes": 5927,
+      "git_blob": "60a25c8a331584ad58ed1ac9f02d04c17214e908",
+      "path": "FedOMG-DG/algorithms/fedsam/data/officehome_dataset.py",
+      "sha256": "b0cda9360c9fa6bec8b5a72d264abcbe629276d1410261ed7d4bc5e37d7d0891"
+    },
+    {
+      "bytes": 3906,
+      "git_blob": "df74223eaa059cc4444cc81d2d452b3e69865ec2",
+      "path": "FedOMG-DG/algorithms/fedsam/data/pacs_dataset.py",
+      "sha256": "12ea0827cc07573bf0f57d4e85c89f5515b5fdcb7d5601f396778be11a48ccca"
+    },
+    {
+      "bytes": 6057,
+      "git_blob": "e18487919a7355acc72fa5ad8708983a79be5e82",
+      "path": "FedOMG-DG/algorithms/fedsam/data/terra_incognita_dataset.py",
+      "sha256": "2b045a026b7124b16961e15173d462aa0f976ab41eb47ed0202b85d82ac3efde"
+    },
+    {
+      "bytes": 4338,
+      "git_blob": "e3e42e864c78717076f6e8e96eba8a86b3e5229d",
+      "path": "FedOMG-DG/algorithms/fedsam/data/vlcs_dataset.py",
+      "sha256": "64f2879d23343de0aeef3f4208cb58bfea6b5e1a0ae04e1417beb2c5efbea006"
+    },
+    {
+      "bytes": 15738,
+      "git_blob": "6eef7473394a45a893063df8c38ccc590f1d7450",
+      "path": "FedOMG-DG/algorithms/fedsam/network/ResNet.py",
+      "sha256": "651f1f972c037f2ed40a95dd73afc39c732d5b666b6eab58f8e0b1fb6e1edd0a"
+    },
+    {
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "FedOMG-DG/algorithms/fedsam/network/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 862,
+      "git_blob": "6fe413e4f5a1bad64038f3f72efbd279f7e740dd",
+      "path": "FedOMG-DG/algorithms/fedsam/network/get_network.py",
+      "sha256": "3634e1bf8b73dc5529bb3564b8a975b30ff8c879b57847e301224cc782316e30"
+    },
+    {
+      "bytes": 2485,
+      "git_blob": "e8e28ec33cb96b386a72e39071f65d42dbb44b39",
+      "path": "FedOMG-DG/algorithms/fedsam/optimizer/esam.py",
+      "sha256": "f7bb280463511b536b1aacecc035d5f34b12c492de5f8bbcaadc6334c40da816"
+    },
+    {
+      "bytes": 5128,
+      "git_blob": "ecc969095b9e6806b2b3fde76c3b95f8fa3ff83e",
+      "path": "FedOMG-DG/algorithms/fedsam/train_pacs.py",
+      "sha256": "9f241c7b78b54bc2dc7878c75f6c02de17e89475d4dd7c6856d742935d3f907e"
+    },
+    {
+      "bytes": 5671,
+      "git_blob": "949a4188396a7eb0f5f5dc7d7447a366318ce878",
+      "path": "FedOMG-DG/algorithms/fedsam/train_pacs_GA.py",
+      "sha256": "19bb4a30cfc606e427f5033490e618e888671229a7337d1130d7f81b3499d7ab"
+    },
+    {
+      "bytes": 5920,
+      "git_blob": "7a0d5044aaa031894dcf404c6c8c8933fd720fad",
+      "path": "FedOMG-DG/algorithms/fedsam/train_vlcs_GA_fedsam.py",
+      "sha256": "65bb2fffda214f232f6da0eeaa8f323240247e7780cbd8032560d14608d54f3e"
+    },
+    {
+      "bytes": 5666,
+      "git_blob": "54ae8155e00852142636c8ff037627c8c0c00200",
+      "path": "FedOMG-DG/algorithms/fedsam/train_vlcs_SAMOMG.py",
+      "sha256": "385a300e256f3d32b19ca922a7ac15629f2819b544a97c099d4fe8ceba014983"
+    },
+    {
+      "bytes": 5536,
+      "git_blob": "3aa8867bebe2024576720d50c223d6df6e8b54d7",
+      "path": "FedOMG-DG/algorithms/fedsam/train_vlcs_fedsam.py",
+      "sha256": "a7f6628e2544734f4b679ab5785104055cc3b49c02e2ad741c28413f1324dd2e"
+    },
+    {
+      "bytes": 1182,
+      "git_blob": "ec5f833b7a561a4454619c9e4c1af78e4ca225ad",
+      "path": "FedOMG-DG/algorithms/fedsam/utils/classification_metric.py",
+      "sha256": "6d9c485c243fb3f0cf8a2c532ab804d372fa37708a895d73e17b4fde6188710a"
+    },
+    {
+      "bytes": 4195,
+      "git_blob": "53883141b70d4d6f4b36d423713aaeb2fbe8d7d1",
+      "path": "FedOMG-DG/algorithms/fedsam/utils/fed_merge.py",
+      "sha256": "80cfe07f76c34a0d5feec3fa01783b201e0698c5effde4401f909f8115f976db"
+    },
+    {
+      "bytes": 2999,
+      "git_blob": "68a26a2fcc10da6ab0dc005e55027b67d04d19c0",
+      "path": "FedOMG-DG/algorithms/fedsam/utils/log_utils.py",
+      "sha256": "7703b3cc549a247723fc28b9c53f041c74a86f2378ce74b13d09b187b558d1d2"
+    },
+    {
+      "bytes": 8026,
+      "git_blob": "00f2e2da245a808460eb28572989827584de13fe",
+      "path": "FedOMG-DG/algorithms/fedsam/utils/trainval_func.py",
+      "sha256": "aae1b7e428214e1463795765e239e89ae76bcde62c30470234d892c4c4796383"
+    },
+    {
+      "bytes": 1224,
+      "git_blob": "b424a6cc01b51c0a911c00c5e627179fe17fcb59",
+      "path": "FedOMG-DG/algorithms/fedsam/utils/weight_adjust.py",
+      "sha256": "d696b3d8cf7b181b9cafe29811b2e2c40b7c54c4d51b3a613276d9aedb754292"
+    },
+    {
+      "bytes": 18092,
+      "git_blob": "d159169d1050894d3ea3b98e1c965c4058208fe1",
+      "path": "LICENSE",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "bytes": 3126,
+      "git_blob": "62b11edcf8b3e2d7b9515215c2e118815e749d05",
+      "path": "README.md",
+      "sha256": "8aad6333ad6f3e1297287286eee9ea0331b8472aca389f276863f799433a3e41"
+    },
+    {
+      "bytes": 2150,
+      "git_blob": "903cdbaf9cfafed853584bc20b50f512ee61fa40",
+      "path": "requirements.txt",
+      "sha256": "8f3f365f5c95c547c41b8af75672bff514effdc15cea0feaed321b0efd9dd17a"
+    },
+    {
+      "bytes": 1759,
+      "git_blob": "bd22eaf4cf8657fc914e119a22b49b4ea26c678a",
+      "path": "system/flcore/clients/client_OMG.py",
+      "sha256": "ef7106c44cfb8a6a301f2e26bdf73e10eb6ffa50d4ec1b26949e01f6ca8312f1"
+    },
+    {
+      "bytes": 1446,
+      "git_blob": "c770ac8e8fee8c1cb5c35d624192badd1a867312",
+      "path": "system/flcore/clients/clientavg.py",
+      "sha256": "38b90f245f96b8d3c1b4e7f525442fba33ab4e7564382ee8b9aeb3482bf8a328"
+    },
+    {
+      "bytes": 2755,
+      "git_blob": "7880125e712dac0ce497ab87aff9344b6583bce9",
+      "path": "system/flcore/clients/clientbabu.py",
+      "sha256": "318a5aef83e8e65a77fc88ccc897a1dd623502e002aac73419e822c040d7e0e5"
+    },
+    {
+      "bytes": 9796,
+      "git_blob": "e95474bc8bb984a630e9f671f6742db55739f945",
+      "path": "system/flcore/clients/clientbase.py",
+      "sha256": "8707d69574b207b1709b8e69a746a35adc175d0d90e5ef3c639057f3e3e5b253"
+    },
+    {
+      "bytes": 1598,
+      "git_blob": "55b6a57c7a981102b79545212fa5a948c76e495e",
+      "path": "system/flcore/clients/clientbn.py",
+      "sha256": "aa9e2ead3def0b2bd73b290be951677bc18fa63669e447c93012dc9b2e256e09"
+    },
+    {
+      "bytes": 8612,
+      "git_blob": "11f33bf0689b4407a4c71907adbe4e906f867478",
+      "path": "system/flcore/clients/clientcp.py",
+      "sha256": "1ac6f80558a4bb6c42bcad660aadecb64e78465b2dacac255b62f8e40b7a1e07"
+    },
+    {
+      "bytes": 5176,
+      "git_blob": "df9d77577f4ac52e5a560257ed3e00577c4b422a",
+      "path": "system/flcore/clients/clientditto.py",
+      "sha256": "666e23d83b6f87fa630864d8ed4c4a319c293d5fd99d4df5975bf800c98969a8"
+    },
+    {
+      "bytes": 6267,
+      "git_blob": "318e35722d5c4d30464934c0458573b8be03e0c9",
+      "path": "system/flcore/clients/clientfomo.py",
+      "sha256": "050d9cff47a27fbd30b140d04d62258f335edaa4784afd6d17cdb0d99f8ae3f9"
+    },
+    {
+      "bytes": 7061,
+      "git_blob": "cc7e43928795178ad33e7fc0f48ed453e74a91db",
+      "path": "system/flcore/clients/clientpac.py",
+      "sha256": "8b3b2c37023743e65e1e685b5eb7fdc629edb5fc6173fca1405fb86dec7956e6"
+    },
+    {
+      "bytes": 7915,
+      "git_blob": "51a150f950a006357c9ebaad6411c18b313e6c9f",
+      "path": "system/flcore/clients/clientpcl.py",
+      "sha256": "c35210033a927dc2819dad04f663468282be99935e88521f1e3b82ffb313397e"
+    },
+    {
+      "bytes": 5601,
+      "git_blob": "723beb28efa170479a534285d99e9d3a64730af2",
+      "path": "system/flcore/clients/clientperavg.py",
+      "sha256": "2af2d9ba129d03493fb703007d765fd5229a1163cf309035794b1b0ad244d726"
+    },
+    {
+      "bytes": 5382,
+      "git_blob": "43fca615fc7ca637556c3b55ce7a178fa93e62dc",
+      "path": "system/flcore/clients/clientrod.py",
+      "sha256": "c52479918187d2f1303435ee35464fe953c569ae817850e1c5202141d9032911"
+    },
+    {
+      "bytes": 7455,
+      "git_blob": "9a08b152c5df755f016a4ae1925b41b69fb478db",
+      "path": "system/flcore/gradient/gradient_diff.py",
+      "sha256": "967240e0bdbcc043a220dd04e19ccf3785f1d2c6c517fc095e604753696c3e63"
+    },
+    {
+      "bytes": 1650,
+      "git_blob": "e5606262391950fb2a72ee2ce3d4dfe21d0c3dc1",
+      "path": "system/flcore/gradient/gradient_utils.py",
+      "sha256": "9dcef372d126ac6e3f6ee84bcc1246b8751e52c41d1e0fd37d7120321c5b1d27"
+    },
+    {
+      "bytes": 2614,
+      "git_blob": "8dcbc6fb54a7634a2dd13de93f66213c6bdaa9b0",
+      "path": "system/flcore/optimizers/fedoptimizer.py",
+      "sha256": "38803a76be477d76bc94b72ccb7ea483dfbc16efd1ed7eb0322e202cdfa50213"
+    },
+    {
+      "bytes": 9247,
+      "git_blob": "1d95ff0e2c96c1052fcfee43cd9793234cbf7793",
+      "path": "system/flcore/servers/server_OMG.py",
+      "sha256": "1ebb292e980fe67fc56f68b53f3f02badb97a9955c1efcd7695ee1dd022fad53"
+    },
+    {
+      "bytes": 2002,
+      "git_blob": "3ba398891b7d99d0b88cfaa62c1ad5606fff8518",
+      "path": "system/flcore/servers/serveravg.py",
+      "sha256": "ecdcddd55e014b0d807c7d540cf80343a4a62fcfa28b0d4f2b92a427b30c8db2"
+    },
+    {
+      "bytes": 3483,
+      "git_blob": "f5c0a9c5debe00751669796b01efafca3a3f518e",
+      "path": "system/flcore/servers/serverbabu.py",
+      "sha256": "c24cd9e0916b10df207d530e322241d02620f393253f8e3e7b3a0cc1cd43daf0"
+    },
+    {
+      "bytes": 22439,
+      "git_blob": "63cbf896593283a98031077d9725baa78e5371a3",
+      "path": "system/flcore/servers/serverbase.py",
+      "sha256": "eabf81e108ca49c1842f6786746e9a67d54d777a33a970b3a26e06c82e0cf245"
+    },
+    {
+      "bytes": 2130,
+      "git_blob": "7afb240303b02f7d4463c324d8152765554fb65b",
+      "path": "system/flcore/servers/serverbn.py",
+      "sha256": "362ccb58ffaec84d8c697a65e167d61dc97f99a0c681184151c4c556f49ff905"
+    },
+    {
+      "bytes": 7014,
+      "git_blob": "3dce95af57863fb4f1067b35136b2e751aa9eb4f",
+      "path": "system/flcore/servers/servercp.py",
+      "sha256": "60afd3e5d67ab63df79fb7aaa949075ad6825864c3be875b3af554ec3cc8298a"
+    },
+    {
+      "bytes": 4522,
+      "git_blob": "416346a682c5b144b1a4ee7b05abceb3d8927fce",
+      "path": "system/flcore/servers/serverditto.py",
+      "sha256": "6cfc5545078e0ef4d285d600d9a6c88b1321f38d55fd41790f48afdc3500115a"
+    },
+    {
+      "bytes": 5548,
+      "git_blob": "69e7e25bc8cfe78e724bf99dbbafd65c28690a53",
+      "path": "system/flcore/servers/serverfomo.py",
+      "sha256": "10214922cd76b9532ee0bd6637a3c912e2c398fc6b12c266dedd76df2d74a41d"
+    },
+    {
+      "bytes": 10321,
+      "git_blob": "63523c32edb440bae34f97bbba03fcdf8a8b571a",
+      "path": "system/flcore/servers/serverpac.py",
+      "sha256": "ace7beef48b8629a018f3f89e31ee6f96bbd321bafe627bdbed03dd6a7eab027"
+    },
+    {
+      "bytes": 4687,
+      "git_blob": "44d3f7efcefbeb80b1884f33c4f83e15a91c9984",
+      "path": "system/flcore/servers/serverpcl.py",
+      "sha256": "ef3b8df4dacac193102a4b5c678a4c963dff50413db7644e95e58b90795a05ae"
+    },
+    {
+      "bytes": 3668,
+      "git_blob": "c09c46ce0db198598440f5e07c009482f04b3588",
+      "path": "system/flcore/servers/serverperavg.py",
+      "sha256": "3d91625b1ef6e79d5a13f16d72ff9016e1b617d9afc05a7d790932c5d8a6a648"
+    },
+    {
+      "bytes": 2552,
+      "git_blob": "38bdee8531f37aa64a00e758e1f0e7cfb6fe922b",
+      "path": "system/flcore/servers/serverrod.py",
+      "sha256": "039fe7bd3e4b266992684fb74ab8ee5d3ed7c37f10ab9df85238ace06fd546e7"
+    },
+    {
+      "bytes": 6360,
+      "git_blob": "f4f551cedba5e4e332781563333fee1c8b7d19a7",
+      "path": "system/flcore/servers/serverrod_omg.py",
+      "sha256": "1e1cb1bcf228cd6b71532847f0b7f42ff9075e486b6a85cbdea8e144f8ec2f25"
+    },
+    {
+      "bytes": 2345,
+      "git_blob": "7d5f046d7ccf5129cfaf2124de836bbc9dc9e112",
+      "path": "system/flcore/trainmodel/alexnet.py",
+      "sha256": "b050f0c18ee4b8e44a8148b3cf1005f559229610cffc6d39a36dcb176beda326"
+    },
+    {
+      "bytes": 4033,
+      "git_blob": "0e2eb455e929f4dbfecdc2b3b69b38bfb25ac6ee",
+      "path": "system/flcore/trainmodel/bilstm.py",
+      "sha256": "e21ec13769ad28626bbd40f2d6a5e052416709d6db608408a2e0e4609729a825"
+    },
+    {
+      "bytes": 7171,
+      "git_blob": "2ba25804941634ff3f6783d0112e8376278808aa",
+      "path": "system/flcore/trainmodel/mobilenet_v2.py",
+      "sha256": "0076d52fa0cc23d7202adbd04cad753621076b9cbd87477a892868c01f99a7ee"
+    },
+    {
+      "bytes": 18865,
+      "git_blob": "44c0d4a9fe32cfd479e9e636191bca876ad00793",
+      "path": "system/flcore/trainmodel/models.py",
+      "sha256": "a90801d890d9d74b22e26626f137da8c7c0b07578bdce7697e7736ca0cb0f486"
+    },
+    {
+      "bytes": 10156,
+      "git_blob": "40228a5b85cdedb27ddefd535d82984e272b3aa0",
+      "path": "system/flcore/trainmodel/resnet.py",
+      "sha256": "8234c0313805660b4a28aebf36059d80c6bb951f223591168ea9b5be00042c98"
+    },
+    {
+      "bytes": 2583,
+      "git_blob": "5c3157f17dc4d8df6c11c78caab8a8f520835b56",
+      "path": "system/flcore/trainmodel/transformer.py",
+      "sha256": "a2f3da121adf5f0fc453a7238e674e17b6df1f20f686af12cad4c135bf615747"
+    },
+    {
+      "bytes": 361,
+      "git_blob": "aec76d86b389e36f7b50f3d9900e16fb8fb1d0b7",
+      "path": "system/get_mean_std.py",
+      "sha256": "410cc1cc299705567a0bd7f90c5e2481c23e3f1b167a67e0ea28ef07858d318a"
+    },
+    {
+      "bytes": 16730,
+      "git_blob": "0d5666ada4b44a3577ded861cd84b800f00a5dca",
+      "path": "system/main.py",
+      "sha256": "4819d586000f3a6d9809133d66e9421ff8f251ed6b8018907da2c6269d382b29"
+    },
+    {
+      "bytes": 6093,
+      "git_blob": "92e0c5ab6890cc21fcd6961f4b2efa8d10652c07",
+      "path": "system/utils/ALA.py",
+      "sha256": "e6b32a4a9bcf8aceadd68ce8651f6e13cee3384c0f3580ac03969f0f261ba115"
+    },
+    {
+      "bytes": 9512,
+      "git_blob": "5c2952ec784c680517dde8e6b33b8d544c419d3f",
+      "path": "system/utils/data_utils.py",
+      "sha256": "05d8df349ec36793e1157e01c9489ce1accbc3e2b21c6502a2a97aa7e58fc5cb"
+    },
+    {
+      "bytes": 2143,
+      "git_blob": "9da6d7d3ccd1e2f6c13aa118a10c3fdabd4639e0",
+      "path": "system/utils/dlg.py",
+      "sha256": "34e46d1725ac051ff6b585f615fa3bb67ba36fdb79434a8d37a1d9fb469c317d"
+    },
+    {
+      "bytes": 7749,
+      "git_blob": "da55b2d70ca850e897cb9678d88af1fe10dcb11f",
+      "path": "system/utils/mem_utils.py",
+      "sha256": "4c816b7fb1af42b1807d51c6c306abb613ba81b71d60eb42a7ffa691a726c337"
+    },
+    {
+      "bytes": 1274,
+      "git_blob": "0baee0842568baf35c742c96ad5c3ef2a2cee4fe",
+      "path": "system/utils/model_utils.py",
+      "sha256": "0757a4d93d68bf3bd1bc9f4659563a7dc30ae003de726097d85646c163d4ea00"
+    },
+    {
+      "bytes": 549,
+      "git_blob": "513b5c7a7a7bbf6ed8b83f7a613e55117867aac9",
+      "path": "system/utils/privacy.py",
+      "sha256": "51a191174799023e818329ee5b9cf373f3938b7da35aead8591ea12a7cb0bf60"
+    },
+    {
+      "bytes": 1087,
+      "git_blob": "d4218480c564ce290513c4231cf3c26ba586b9fc",
+      "path": "system/utils/result_utils.py",
+      "sha256": "782e350f1f7f5a6a882b7bbc4b1b043a30e9f8e86c7eab3ce0bfd6b2454faa86"
+    }
+  ],
+  "installer_version": 2,
+  "provides": [
+    "PerAvg",
+    "FedRoD",
+    "FedPAC",
+    "FedBABU",
+    "FedSAM"
+  ],
+  "repository": "https://github.com/skydvn/FedOMG"
+}

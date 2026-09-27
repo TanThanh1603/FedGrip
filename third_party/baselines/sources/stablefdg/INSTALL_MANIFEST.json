@@ -1,0 +1,1175 @@
+{
+  "branch": "master",
+  "commit": "77eac350f8515c45630f60d2564863e3da8c8687",
+  "files": [
+    {
+      "bytes": 315,
+      "git_blob": "6b019a3d30cc959266834870194373c8cbedd184",
+      "path": "Dassl.pytorch/.isort.cfg",
+      "sha256": "5c77541b5c69cdc24ceda4b146100223c88b6aa0d18612602cde67b349380653"
+    },
+    {
+      "bytes": 7577,
+      "git_blob": "27ad5099b5b50171d9502352fde9f4b1d2237240",
+      "path": "Dassl.pytorch/DATASETS.md",
+      "sha256": "1bba273b8640730c296b91eb60a2f3973dd030030613aa53e231791bb06747c4"
+    },
+    {
+      "bytes": 19008,
+      "git_blob": "6f3ec6f3f157e8fe659ac71f91add34aa1318544",
+      "path": "Dassl.pytorch/README.md",
+      "sha256": "bbbf3073463e20a23a9b4111530229a8c3099a52666fbe8ce42f88a89efd20a9"
+    },
+    {
+      "bytes": 331,
+      "git_blob": "18b90a466aeeb09aeca095f1fec30c1ef3b74a30",
+      "path": "Dassl.pytorch/configs/README.md",
+      "sha256": "99c51c767f0abbf9dd38cac4122625964c0d49cc6e3ddda300a47f027c77b59b"
+    },
+    {
+      "bytes": 111,
+      "git_blob": "52c086faf709de3b8996afc09d3dcce02516f2f7",
+      "path": "Dassl.pytorch/configs/datasets/da/cifar_stl.yaml",
+      "sha256": "9526631742b7c06355ae19e475853ffc18275232b3dc790e937be8d0deea27ee"
+    },
+    {
+      "bytes": 186,
+      "git_blob": "f754d643be265762b6dddb33b11ce87acc94d29c",
+      "path": "Dassl.pytorch/configs/datasets/da/digit5.yaml",
+      "sha256": "6e4e1ec916f2ce91982553aa3d85fdcde30e1db4a4f3037f99f18cb1bae3d598"
+    },
+    {
+      "bytes": 163,
+      "git_blob": "4aafc70f0a5741e72dbf07bdff1977a1c28d7a55",
+      "path": "Dassl.pytorch/configs/datasets/da/domainnet.yaml",
+      "sha256": "0c7bdd8cf54fd8d014ec6d5bf27784f0cd7ddb7f5d4c282f068ad1bac2d3000d"
+    },
+    {
+      "bytes": 163,
+      "git_blob": "cfb34d8a3f431e86dab223780b5e675b8d797ee0",
+      "path": "Dassl.pytorch/configs/datasets/da/mini_domainnet.yaml",
+      "sha256": "ea59136a7bedf6eae9ab60bad4e788e2fd6107e5d135bc7bc31f44514594c2d2"
+    },
+    {
+      "bytes": 225,
+      "git_blob": "77cca035c1e6f1a085bb8cb6043935dcf3a4b6ea",
+      "path": "Dassl.pytorch/configs/datasets/da/office31.yaml",
+      "sha256": "eea7464a073aa128d7745cce59d2aab0f3107c3ce8254b9084a50c994dedb4e1"
+    },
+    {
+      "bytes": 56,
+      "git_blob": "7e181fda48aedd9b968607f9a9f973f2b450a1ff",
+      "path": "Dassl.pytorch/configs/datasets/da/office_home.yaml",
+      "sha256": "6cdfee88cbd0c949856b860d425ac7b591a8d034d7fe9358db5c0cf6a08d555e"
+    },
+    {
+      "bytes": 185,
+      "git_blob": "d54f2f63861c2539c81bb20215101c981103104e",
+      "path": "Dassl.pytorch/configs/datasets/da/visda17.yaml",
+      "sha256": "316b8f7710ff3d12613dfebfd16a09fa0803a2a785a741564c1f03f7b4c384ea"
+    },
+    {
+      "bytes": 123,
+      "git_blob": "11a2c4d7019c2e8dcb4d2e297ae8c12767e27354",
+      "path": "Dassl.pytorch/configs/datasets/dg/camelyon17.yaml",
+      "sha256": "13f32ca011d13ed78f87249a7330d6b69c2be593491c439df01ea78f2f935180"
+    },
+    {
+      "bytes": 260,
+      "git_blob": "c4b7f9171d972b49aa4fa9ae9d6dba61edf982f6",
+      "path": "Dassl.pytorch/configs/datasets/dg/cifar100_c.yaml",
+      "sha256": "10c4cea42c7a3571c776f7c5df7d7587e4597ff12c9cacf2ec6b273bd9f8fc45"
+    },
+    {
+      "bytes": 259,
+      "git_blob": "ec5702ed240580b980d4fa7dce8e19669b5798ad",
+      "path": "Dassl.pytorch/configs/datasets/dg/cifar10_c.yaml",
+      "sha256": "edbdc088a3d9b1460eeaa48fc502dd7d65ba3a5492ac633464ae5cadcfcdf9e9"
+    },
+    {
+      "bytes": 190,
+      "git_blob": "a6bacbb2457b9b2b8174d35aaa07b55427325096",
+      "path": "Dassl.pytorch/configs/datasets/dg/digit_single.yaml",
+      "sha256": "b7b1c62e21e27fa76acf0383d909ab31e7a2b01079ce2e759a1350df1222ad7c"
+    },
+    {
+      "bytes": 184,
+      "git_blob": "ca25e21326fa613299ed24210575c0c6aec51fdf",
+      "path": "Dassl.pytorch/configs/datasets/dg/digits_dg.yaml",
+      "sha256": "756c6cbd36baed44e51acb396ca6a9d9c5e162c81e051afa7557d92dd26c09ea"
+    },
+    {
+      "bytes": 184,
+      "git_blob": "c8daddfcc2e7c849b942103342fc1ad381ef3169",
+      "path": "Dassl.pytorch/configs/datasets/dg/domainnet.yaml",
+      "sha256": "a87e21c2f51e352399ff4a477daec9600d41186352310196f1acd87260e49f5d"
+    },
+    {
+      "bytes": 117,
+      "git_blob": "825ee809c32b73206f4620f0a81cc6e5f357566f",
+      "path": "Dassl.pytorch/configs/datasets/dg/fmow.yaml",
+      "sha256": "9d8ab68b84d9bbeec37415c4f1180e22202fd2438f893ff5642fd819652b9408"
+    },
+    {
+      "bytes": 121,
+      "git_blob": "c8aa2eb522065b9abaf16ea4ed30e39645ae3be6",
+      "path": "Dassl.pytorch/configs/datasets/dg/iwildcam.yaml",
+      "sha256": "6bb8203cf35abb0620820b427bc68607eea0dc6047d53e21a302c5727d4d3a42"
+    },
+    {
+      "bytes": 185,
+      "git_blob": "0835973c86ac056dcf0fbc3beb95f110014a0919",
+      "path": "Dassl.pytorch/configs/datasets/dg/office_home_dg.yaml",
+      "sha256": "09fac1e1520aedec8bad5c81e42760be6ccaa99dff5bb0dcfc3d4356b819fe71"
+    },
+    {
+      "bytes": 177,
+      "git_blob": "682ab1c807a5694ec3d42e9da5f7565d90b274fb",
+      "path": "Dassl.pytorch/configs/datasets/dg/pacs.yaml",
+      "sha256": "747ee6be6925346b238deaf5c8d6e0863a58ecacb93a0dcf4a91d55b340ea35c"
+    },
+    {
+      "bytes": 177,
+      "git_blob": "0c8804cf73fdb44b0660692149b529ed58c14c2e",
+      "path": "Dassl.pytorch/configs/datasets/dg/vlcs.yaml",
+      "sha256": "fe6c4c191371876ccae5c2d4aaad4be9040ede8fa73fa757e8ad10c4eb220042"
+    },
+    {
+      "bytes": 255,
+      "git_blob": "63b6a1df2eae0ef5cb454a8eb51e143ac3184430",
+      "path": "Dassl.pytorch/configs/datasets/ssl/cifar10.yaml",
+      "sha256": "ab9e6c62d124fb49dee9e1c33180bc604a7b5fe447e761accc8530a040d41450"
+    },
+    {
+      "bytes": 275,
+      "git_blob": "6230a881904418885bc9755f6fdc71582465b902",
+      "path": "Dassl.pytorch/configs/datasets/ssl/cifar100.yaml",
+      "sha256": "b4642da49ff28cc31eacd53c3f983854075ab524f737d8c093377896d462ef73"
+    },
+    {
+      "bytes": 249,
+      "git_blob": "7b11df1263da3b5212affc132998aae76308e86a",
+      "path": "Dassl.pytorch/configs/datasets/ssl/stl10.yaml",
+      "sha256": "7823047f1e76daa4af9678efe8498a609aba53a6f3cb53bd5e4b2bc8b41d084c"
+    },
+    {
+      "bytes": 255,
+      "git_blob": "cd3b527b4693d3f61126f2425caef3ffcf54d725",
+      "path": "Dassl.pytorch/configs/datasets/ssl/svhn.yaml",
+      "sha256": "bf1af6b84d04f74379944d51db42107449057e6307790119ff122a9201ab6a53"
+    },
+    {
+      "bytes": 309,
+      "git_blob": "04ba3467d0b65d39c9b0357ec45ecf506fc745cf",
+      "path": "Dassl.pytorch/configs/trainers/da/cdac/digit5.yaml",
+      "sha256": "5739f5e2a78314b6d7ce8c448adae6a5512314e353a2efc85a28425a840ab20b"
+    },
+    {
+      "bytes": 312,
+      "git_blob": "e5fd5593492bfdf16d3f838eb1607b4e6a397f7f",
+      "path": "Dassl.pytorch/configs/trainers/da/cdac/domainnet.yaml",
+      "sha256": "e328b0f12dc31d4ce7da556a2530bc5c441db96814bdaa434e57853cb498c1fc"
+    },
+    {
+      "bytes": 340,
+      "git_blob": "cb4f9c122c9a66496fad25d899bc90cc26c89eeb",
+      "path": "Dassl.pytorch/configs/trainers/da/cdac/mini_domainnet.yaml",
+      "sha256": "1a4d77f97f1ac08d87a369b39f905ead47f84a77748b39fea00aec8df47fd83c"
+    },
+    {
+      "bytes": 318,
+      "git_blob": "d83bfe42ee6208112c5fd78c80039ff3b55ba999",
+      "path": "Dassl.pytorch/configs/trainers/da/dael/digit5.yaml",
+      "sha256": "087c5d2fd0f3ce31c71a1f50386d248f743e24b964993102b94d929b5073e88f"
+    },
+    {
+      "bytes": 324,
+      "git_blob": "fc7cd211efd249663cbc17713055a514745aea6d",
+      "path": "Dassl.pytorch/configs/trainers/da/dael/domainnet.yaml",
+      "sha256": "43f946bae21c31d7ca7f927f6da20c825b373b9b9cd886961f7b2c38785632de"
+    },
+    {
+      "bytes": 327,
+      "git_blob": "708ddcba9e679cedc606b4c1f8ab593718288dbc",
+      "path": "Dassl.pytorch/configs/trainers/da/dael/mini_domainnet.yaml",
+      "sha256": "2076786839144997a3356bb65d1c253792ab05a2eb460bcccabca6e852d7bdf3"
+    },
+    {
+      "bytes": 247,
+      "git_blob": "a70887b0c74cd2fee9d60c9324e1b8066d700bf0",
+      "path": "Dassl.pytorch/configs/trainers/da/m3sda/digit5.yaml",
+      "sha256": "fef9b4f6415612a5445f8bf0a3457681def02db5e648d3e995f9f8aff47da0d4"
+    },
+    {
+      "bytes": 228,
+      "git_blob": "5abaa12a79cdd516a8cf99efbcc9dc6a8c557fbe",
+      "path": "Dassl.pytorch/configs/trainers/da/m3sda/domainnet.yaml",
+      "sha256": "4155ff468b95d2ea5f11404efca00e85843dda9f7d4edf66c60dd426487ed31e"
+    },
+    {
+      "bytes": 231,
+      "git_blob": "6edf3e3cbde7f3b30a27f4989d2ac100bea278e7",
+      "path": "Dassl.pytorch/configs/trainers/da/m3sda/mini_domainnet.yaml",
+      "sha256": "7dc11ae739dcf891dc5a41131a28df999e7b1e1a69121d41d055eef8e6a2eb53"
+    },
+    {
+      "bytes": 161,
+      "git_blob": "64ce348e5b3ce64209193755dae9f360f71a9f8d",
+      "path": "Dassl.pytorch/configs/trainers/da/source_only/digit5.yaml",
+      "sha256": "f21974a213c36e0d63740e36c0f34244411ccc90c193a7e91bdbffc735a03630"
+    },
+    {
+      "bytes": 145,
+      "git_blob": "bd8471eb2a79dbf70e0b5c606a82d042c0148f70",
+      "path": "Dassl.pytorch/configs/trainers/da/source_only/mini_domainnet.yaml",
+      "sha256": "dce7a0a6d055dfcc1d7ba6583dccf4590480e5734355e5872730f522f8b78f2f"
+    },
+    {
+      "bytes": 135,
+      "git_blob": "8fb73ee1ba1ec366cf367fa974919a7c4245e163",
+      "path": "Dassl.pytorch/configs/trainers/da/source_only/office31.yaml",
+      "sha256": "a6b1ebd7bb7fc38964ccc05d1f363a7244e361064c42b32d1cef36ebb45867fa"
+    },
+    {
+      "bytes": 183,
+      "git_blob": "3c25fb097ef7b7736a24703cb39dd5d894d55594",
+      "path": "Dassl.pytorch/configs/trainers/da/source_only/visda17.yaml",
+      "sha256": "6939bf15fb3352b974aa46a64facac2b66a06e8c295e75d45d852dfb6f19d330"
+    },
+    {
+      "bytes": 244,
+      "git_blob": "453043132b0bebac7915457a639a7e8bfad0cc13",
+      "path": "Dassl.pytorch/configs/trainers/dg/daeldg/digits_dg.yaml",
+      "sha256": "9b0c7f249cb3d3cb3d323a55a8cf08ea669fc863d2f357ec5938e8d9a6fe19c6"
+    },
+    {
+      "bytes": 277,
+      "git_blob": "8b17f5a7e92dab5332c4e33c3123fa5d97e8dd60",
+      "path": "Dassl.pytorch/configs/trainers/dg/daeldg/office_home_dg.yaml",
+      "sha256": "4a09360cfe5f424aecbab740b58c19476e5986920f1338b2902f97f85c1a5345"
+    },
+    {
+      "bytes": 277,
+      "git_blob": "8b17f5a7e92dab5332c4e33c3123fa5d97e8dd60",
+      "path": "Dassl.pytorch/configs/trainers/dg/daeldg/pacs.yaml",
+      "sha256": "4a09360cfe5f424aecbab740b58c19476e5986920f1338b2902f97f85c1a5345"
+    },
+    {
+      "bytes": 258,
+      "git_blob": "8ee803029c6acfa1f6904a48a9d93e91c8f54014",
+      "path": "Dassl.pytorch/configs/trainers/dg/ddaig/digits_dg.yaml",
+      "sha256": "5066d65f3d0f7598dec92531abb4fba1d1971ff9958185459267de2bf91035c7"
+    },
+    {
+      "bytes": 272,
+      "git_blob": "b55f81009379aa043eabbb7ec4c4f7c70cd0e32d",
+      "path": "Dassl.pytorch/configs/trainers/dg/ddaig/office_home_dg.yaml",
+      "sha256": "b1f68950578f3df5afc3732b3658f65bc3c4313d91e86120dda676c331e9b06f"
+    },
+    {
+      "bytes": 272,
+      "git_blob": "b55f81009379aa043eabbb7ec4c4f7c70cd0e32d",
+      "path": "Dassl.pytorch/configs/trainers/dg/ddaig/pacs.yaml",
+      "sha256": "b1f68950578f3df5afc3732b3658f65bc3c4313d91e86120dda676c331e9b06f"
+    },
+    {
+      "bytes": 178,
+      "git_blob": "8b73fbeac06b4a26a29fa9c41961fda146a9d154",
+      "path": "Dassl.pytorch/configs/trainers/dg/vanilla/digits_dg.yaml",
+      "sha256": "922df85968504075be54081a94a3ff0d57b66c6849cceda3bd12f8679f4c6634"
+    },
+    {
+      "bytes": 145,
+      "git_blob": "bd8471eb2a79dbf70e0b5c606a82d042c0148f70",
+      "path": "Dassl.pytorch/configs/trainers/dg/vanilla/mini_domainnet.yaml",
+      "sha256": "dce7a0a6d055dfcc1d7ba6583dccf4590480e5734355e5872730f522f8b78f2f"
+    },
+    {
+      "bytes": 144,
+      "git_blob": "43f621425a9b2d53c0af6ff105397180144bfcb0",
+      "path": "Dassl.pytorch/configs/trainers/dg/vanilla/office_home_dg.yaml",
+      "sha256": "d59e4f54aa5c5cb7ed21aa79ad2d2ccbe186077c3191bbd207e320292b5d65a5"
+    },
+    {
+      "bytes": 144,
+      "git_blob": "43f621425a9b2d53c0af6ff105397180144bfcb0",
+      "path": "Dassl.pytorch/configs/trainers/dg/vanilla/pacs.yaml",
+      "sha256": "d59e4f54aa5c5cb7ed21aa79ad2d2ccbe186077c3191bbd207e320292b5d65a5"
+    },
+    {
+      "bytes": 373,
+      "git_blob": "a03fc6c95d69ec7f73dafe0954b32764f4ed8c1e",
+      "path": "Dassl.pytorch/configs/trainers/ssl/fixmatch/cifar10.yaml",
+      "sha256": "6267d8d88945e03f14ebb7ab0340a6d35e397cf1fbcac6659ca60968d79e6591"
+    },
+    {
+      "bytes": 443,
+      "git_blob": "225e3ca01fcf66bc0c7768d756ae145509419c6f",
+      "path": "Dassl.pytorch/dassl/__init__.py",
+      "sha256": "971cf9ec3e61350687d6e570314d7fb3c0157e94fbdb99bb4cfb3238a4ab3a13"
+    },
+    {
+      "bytes": 487,
+      "git_blob": "d745fbabfcee7ff8889a9650bd268f849e98b3f6",
+      "path": "Dassl.pytorch/dassl/config/__init__.py",
+      "sha256": "ddbdb024c2567011b3c719374daacc8540f88cc897b2f26294e8cb0a2a687141"
+    },
+    {
+      "bytes": 9903,
+      "git_blob": "18f437b139f841515e3010518a5c8fe277fe6320",
+      "path": "Dassl.pytorch/dassl/config/defaults.py",
+      "sha256": "5e3cfb1f8d21c4f18def3d9afab65cf602ef9bc963c29a382b68343d8e451766"
+    },
+    {
+      "bytes": 54,
+      "git_blob": "66ca734ef1123667efc14264f9f52cafacbda70f",
+      "path": "Dassl.pytorch/dassl/data/__init__.py",
+      "sha256": "a9db83252d7644cfbf8274de1f59780e3baf1b04c8709e1ae0d96b8e0807f4b7"
+    },
+    {
+      "bytes": 14832,
+      "git_blob": "6b711ed04477dd23637f50c29160bb751e4ef0cd",
+      "path": "Dassl.pytorch/dassl/data/data_manager.py",
+      "sha256": "1f3ad4f899b880d5085d7fda1823baf92214909cb939c46b2095e5299fe10fe2"
+    },
+    {
+      "bytes": 180,
+      "git_blob": "4f58326fe091fe11d1a67c778b27c068b603f867",
+      "path": "Dassl.pytorch/dassl/data/datasets/__init__.py",
+      "sha256": "f451f85d8162af5b0e94eef0108c39d2f6da24129070d88955fd15d6c72cc2bb"
+    },
+    {
+      "bytes": 6669,
+      "git_blob": "c7cafd040ae41f90e5d339bbb278db804ab89bdc",
+      "path": "Dassl.pytorch/dassl/data/datasets/base_dataset.py",
+      "sha256": "aeaf26e85720286a920a0a95c905db7e1ac8cb6c785cb4789c2f13ec47dace65"
+    },
+    {
+      "bytes": 368,
+      "git_blob": "9de62c61c6f8214a61e6bdafacfed939616a4d79",
+      "path": "Dassl.pytorch/dassl/data/datasets/build.py",
+      "sha256": "ae96d1e216926ebdac6f8569e281972bf17bafdd311eb0791d1626a9b078a3b9"
+    },
+    {
+      "bytes": 229,
+      "git_blob": "9c7b60f27dbdcd96d828d21772d8bd498f6924d7",
+      "path": "Dassl.pytorch/dassl/data/datasets/da/__init__.py",
+      "sha256": "36047cec8f245ddcb1646e9367b6fef221334d8afcb2cd6505c8190dc52322e5"
+    },
+    {
+      "bytes": 2309,
+      "git_blob": "ca27eb10e07b0131ef30a3953ea83bd8695632e2",
+      "path": "Dassl.pytorch/dassl/data/datasets/da/cifarstl.py",
+      "sha256": "10a26727f2c8a801571abf14ba95d180409e0b5c17f4a954e68f4b7e5831a143"
+    },
+    {
+      "bytes": 4109,
+      "git_blob": "4320005aab9839630d87ceb1a864543b40e159c8",
+      "path": "Dassl.pytorch/dassl/data/datasets/da/digit5.py",
+      "sha256": "e885d5b624f3d396b95957d493ffe76f1fc33f08589ad41bf58b1ec602b1a62a"
+    },
+    {
+      "bytes": 2304,
+      "git_blob": "8a703bf1bcf3a355f65c270678a35fe6778b5b3f",
+      "path": "Dassl.pytorch/dassl/data/datasets/da/domainnet.py",
+      "sha256": "011db8795b246f3c3db0e6b99afe546cf41ef4076c8556a6aea7f8c2ffc58219"
+    },
+    {
+      "bytes": 1978,
+      "git_blob": "4a708691444d658298c4c44be1209da258b6f62d",
+      "path": "Dassl.pytorch/dassl/data/datasets/da/mini_domainnet.py",
+      "sha256": "935c9a4ec893dde9198550cd9f5b38bdf6c8aa636838d24f67f5e35da24a0d67"
+    },
+    {
+      "bytes": 1952,
+      "git_blob": "c2daca1d4bc5c7629da237da194941010047ee3a",
+      "path": "Dassl.pytorch/dassl/data/datasets/da/office31.py",
+      "sha256": "703c56009852384c0c061d2c9e68fa0fbf280563b23764842d394ebc7994880a"
+    },
+    {
+      "bytes": 2013,
+      "git_blob": "61996f2f557ee2cb324a387af1d86d57f3db269f",
+      "path": "Dassl.pytorch/dassl/data/datasets/da/office_home.py",
+      "sha256": "69a02a045b56209878754132e3ca310d3f8703d9ebbd31c10f93c304ce665965"
+    },
+    {
+      "bytes": 1765,
+      "git_blob": "48c1045e67e59624c6d3a17cb1bf6eb85079b1da",
+      "path": "Dassl.pytorch/dassl/data/datasets/da/visda17.py",
+      "sha256": "5874affa39ef911073b9727817af75b37e3caab84d1a3f930e13c71e3b0d70ee"
+    },
+    {
+      "bytes": 219,
+      "git_blob": "b94c35cd9f8db817f343d398f3ada76fe0828888",
+      "path": "Dassl.pytorch/dassl/data/datasets/dg/__init__.py",
+      "sha256": "1f78e98ce94af2c8e8b768cad51232a701b2983026744e91af54051e4296d93b"
+    },
+    {
+      "bytes": 3248,
+      "git_blob": "7d1e4f38081f99a4005ebe295b8722afbc1197e5",
+      "path": "Dassl.pytorch/dassl/data/datasets/dg/cifar_c.py",
+      "sha256": "58b23e1011fdcb8056e95b56a99e3edc151918abf508957f8470c23b3a1f6f37"
+    },
+    {
+      "bytes": 4315,
+      "git_blob": "5490e92f02a912a60ceac21afbcb2388f1bcaaa3",
+      "path": "Dassl.pytorch/dassl/data/datasets/dg/digit_single.py",
+      "sha256": "069cca5ebb9f12d607edef2f26bcacb1c613a2a50bdffffff26e4aac55c54d7a"
+    },
+    {
+      "bytes": 3230,
+      "git_blob": "86abb3defee2e5e141e2113f8b8c0df5f2a6f89a",
+      "path": "Dassl.pytorch/dassl/data/datasets/dg/digits_dg.py",
+      "sha256": "2f9a2eb41cc18ff3caba6f6075fdb6e2663aa63438d3dc3006cad80e20055ef3"
+    },
+    {
+      "bytes": 1564,
+      "git_blob": "ef08754b70104d347504e5640f1f7c561d179b0e",
+      "path": "Dassl.pytorch/dassl/data/datasets/dg/office_home_dg.py",
+      "sha256": "5237d18f1b5121091352add3cad65c2fe044540b78586abafeea69d1703ab44d"
+    },
+    {
+      "bytes": 3185,
+      "git_blob": "43d7074016a9a8c443cb7ad673335bded8493c1d",
+      "path": "Dassl.pytorch/dassl/data/datasets/dg/pacs.py",
+      "sha256": "e808875a726b39da5fa6a87020c624ad445472339c2c2e084ba62cc49eb73b6c"
+    },
+    {
+      "bytes": 1895,
+      "git_blob": "77218e2fc5f03641a291bf3d39ea4c3536883a4f",
+      "path": "Dassl.pytorch/dassl/data/datasets/dg/vlcs.py",
+      "sha256": "fba407f76aa656741d041717508d06ec2e738eea3245f446be8641a71e173b6b"
+    },
+    {
+      "bytes": 89,
+      "git_blob": "2898f7ccef7122055b2fd7f1553a1e8630875ba0",
+      "path": "Dassl.pytorch/dassl/data/datasets/dg/wilds/__init__.py",
+      "sha256": "6b3d97244748ec9ef278f5d6f617b4fcc24d380feda828a080a9b9dd879b2af4"
+    },
+    {
+      "bytes": 718,
+      "git_blob": "fade5ebce820fc3a15be79d21b38cc40ed9d9e2d",
+      "path": "Dassl.pytorch/dassl/data/datasets/dg/wilds/camelyon17.py",
+      "sha256": "1989d5879f64ac1be0110bc12acac7660648cd6fc9c4fd1f06555de97bd630c2"
+    },
+    {
+      "bytes": 2230,
+      "git_blob": "d7398e0533ebbb234bd3c294883a366930545bf3",
+      "path": "Dassl.pytorch/dassl/data/datasets/dg/wilds/fmow.py",
+      "sha256": "3bf9e5e0c3a18b9b3179cb5f9e9d2013172894a66599457a3398f467274edddb"
+    },
+    {
+      "bytes": 854,
+      "git_blob": "3d1f016c2a36feec52f968ffab376b81d0cb05e7",
+      "path": "Dassl.pytorch/dassl/data/datasets/dg/wilds/iwildcam.py",
+      "sha256": "9e3a85ce859dc16bd2bda07e31d631f65ee241f9f674a3d5af15bb83fa84deb5"
+    },
+    {
+      "bytes": 3545,
+      "git_blob": "33232e1ef869ce5235b230b77c2d6b41d7192d25",
+      "path": "Dassl.pytorch/dassl/data/datasets/dg/wilds/wilds_base.py",
+      "sha256": "0f1c3e7f6430107cee97f0a922fa220d533a6f5f3547d7232830035f8a00f3a7"
+    },
+    {
+      "bytes": 85,
+      "git_blob": "a6607dccd9e2dfe4132ebe31cd8613dba0a03848",
+      "path": "Dassl.pytorch/dassl/data/datasets/ssl/__init__.py",
+      "sha256": "ee91948848387da87970181695025a7d3a29d15caa7f3f1c58a83ef86e9a8c30"
+    },
+    {
+      "bytes": 3252,
+      "git_blob": "55845279ca23f532f07d4f28ce062ff3dc927f33",
+      "path": "Dassl.pytorch/dassl/data/datasets/ssl/cifar.py",
+      "sha256": "191e2f957608182e065e884f28e801e32fa66c9e79aabe6ab9845427ee54e27f"
+    },
+    {
+      "bytes": 2712,
+      "git_blob": "6a1f9f2d08557c715cbad7340206e27c1c490c13",
+      "path": "Dassl.pytorch/dassl/data/datasets/ssl/stl10.py",
+      "sha256": "b8f2f2bbf678f6b527bfc5018d91994409bf9b244f973a69c457fd3cced6b437"
+    },
+    {
+      "bytes": 361,
+      "git_blob": "15e0de5681aa355830316a75b2fdf8db65be474b",
+      "path": "Dassl.pytorch/dassl/data/datasets/ssl/svhn.py",
+      "sha256": "bd6ff6baad826e8fe43d14d77dc8180dd6fb5d7f254eba0d3aa44a4badbf3465"
+    },
+    {
+      "bytes": 7526,
+      "git_blob": "3f0b3ee9a97d599db7603ac95ed94796c55d2ba7",
+      "path": "Dassl.pytorch/dassl/data/samplers.py",
+      "sha256": "b2af4b09d8c743b3207f470092469727b18ea183ef1d8fdce1c7765736db6d13"
+    },
+    {
+      "bytes": 61,
+      "git_blob": "02c05d674f447376d3ac3a559dcb4cb08f59e925",
+      "path": "Dassl.pytorch/dassl/data/transforms/__init__.py",
+      "sha256": "a0ffe5c9cedb2804e3fc3389a4e20b5b041b467ae0d3c28bd426aee48ecf0aa4"
+    },
+    {
+      "bytes": 11840,
+      "git_blob": "2e14fcee5caab12f1ebaa1333a14c38c32bff1f8",
+      "path": "Dassl.pytorch/dassl/data/transforms/autoaugment.py",
+      "sha256": "0ecbff1244396c8a944139a98cdf677c6dea0fd254565c9a047c7a72707963b4"
+    },
+    {
+      "bytes": 8715,
+      "git_blob": "5c39ff3ee4a8af917086e160aa9c3e5ed51cba17",
+      "path": "Dassl.pytorch/dassl/data/transforms/randaugment.py",
+      "sha256": "d98e106911803e39522f6efb35a8c1f83fa37c895328a1e094edbf39359dd1ce"
+    },
+    {
+      "bytes": 10611,
+      "git_blob": "4ea00d6eba549cc40c863438c262ec0f77f2e7b8",
+      "path": "Dassl.pytorch/dassl/data/transforms/transforms.py",
+      "sha256": "8f1e30dad741aca3aeffab7155a59ea257757fb4625bf7e5e48537e293fa435e"
+    },
+    {
+      "bytes": 229,
+      "git_blob": "cad3c979b4870f819439c51e38e7fd63f2a60f1e",
+      "path": "Dassl.pytorch/dassl/engine/__init__.py",
+      "sha256": "8ae23374c497272fdc5a8ae25e62c8cd70972ceef92fbf32691f92b38a8140cb"
+    },
+    {
+      "bytes": 368,
+      "git_blob": "456ba8dde739ccad44a14317ca2991dbef32db18",
+      "path": "Dassl.pytorch/dassl/engine/build.py",
+      "sha256": "c6e9aa7dc2b93d45d62c968119ce0cc166013fbc6d17f1f6f25f678a3ee1839b"
+    },
+    {
+      "bytes": 239,
+      "git_blob": "910bf34b99b86dab9be09c59b84311401aaf2dbf",
+      "path": "Dassl.pytorch/dassl/engine/da/__init__.py",
+      "sha256": "bb84267cd2281ae66abc34450648e5e7c49a8e2f3e4aac1809ddaa0a8bd9fa00"
+    },
+    {
+      "bytes": 986,
+      "git_blob": "116d8a21183cdd4d476c1c40bc1aec7a155f5c7f",
+      "path": "Dassl.pytorch/dassl/engine/da/adabn.py",
+      "sha256": "b17318ee97a4ac378b9018d47fd5e54743bd9d435f859b75514c7c6f59c4e981"
+    },
+    {
+      "bytes": 2847,
+      "git_blob": "a9018e7861237a5bd3bdadf1cc4ea656ea5fb7b1",
+      "path": "Dassl.pytorch/dassl/engine/da/adda.py",
+      "sha256": "5963ea37980c6b0902dbb24bae88f6575b0badc53db24dc86b0bf612e5fb2c63"
+    },
+    {
+      "bytes": 9273,
+      "git_blob": "ed846597d3cfc32b8bc65c2d0f439dde7403e064",
+      "path": "Dassl.pytorch/dassl/engine/da/cdac.py",
+      "sha256": "3240a9c1403409ab6fe2586211192544c89a648dcc6e753bb8497185c21a11ef"
+    },
+    {
+      "bytes": 7522,
+      "git_blob": "458df7da350d8d4a4d876362bee88632ecab7d52",
+      "path": "Dassl.pytorch/dassl/engine/da/dael.py",
+      "sha256": "bcc653aaaf46176c118ae36a03e4b48979e4c649fecca9be22b52db0eb7de62c"
+    },
+    {
+      "bytes": 2661,
+      "git_blob": "64bb3f7de48c66ddd83e9d2fbec41d74ea351d83",
+      "path": "Dassl.pytorch/dassl/engine/da/dann.py",
+      "sha256": "82086da7c577cc9455879c21a420a30f07bfd6dc312456d53614afbd5cc68c59"
+    },
+    {
+      "bytes": 6194,
+      "git_blob": "59b5673feedad04e1ba8ad61e19f4513d0660300",
+      "path": "Dassl.pytorch/dassl/engine/da/m3sda.py",
+      "sha256": "6ac6e245501170d28917a7d856c084cc5f50a9900243770f5f7516681b0c6363"
+    },
+    {
+      "bytes": 3593,
+      "git_blob": "174a2e05c66bdb0b5ff27e386063ba4f30aa398e",
+      "path": "Dassl.pytorch/dassl/engine/da/mcd.py",
+      "sha256": "9e5e07b634c8ae8186b97f33b536b6386679b668a48ccba4dd947683f81194da"
+    },
+    {
+      "bytes": 2693,
+      "git_blob": "fd7775c632db2f1fdd576e0cae06e586c71a05db",
+      "path": "Dassl.pytorch/dassl/engine/da/mme.py",
+      "sha256": "cc0cd3e39d70e541eec4e32f87d58fe29e30cfa9ef2efc73028448f3b8d0a3c4"
+    },
+    {
+      "bytes": 2504,
+      "git_blob": "b0f498a3480c6efc64cb885822e4ca8ef68c18b3",
+      "path": "Dassl.pytorch/dassl/engine/da/se.py",
+      "sha256": "d6fdda904c99ad2472844c0807d18b4936d68da94ce7a7767fc58388f810a4f4"
+    },
+    {
+      "bytes": 996,
+      "git_blob": "2e7d9a683c9af49f2e123621fe3795282b82acc2",
+      "path": "Dassl.pytorch/dassl/engine/da/source_only.py",
+      "sha256": "2b79b8ca5e464a1532caa58c9640a1110a5e23dd4d79aca36848996376a88dfc"
+    },
+    {
+      "bytes": 148,
+      "git_blob": "23146a4a3318f64f1b5fe589ece626331ec7f52e",
+      "path": "Dassl.pytorch/dassl/engine/dg/__init__.py",
+      "sha256": "ed5355cae2794f7beb4fc26a274bc80e90b56557eae01d3cc399627479ca2ea1"
+    },
+    {
+      "bytes": 2924,
+      "git_blob": "ad9a6bd5a3b4a66101ca5d8de9891307db9a4462",
+      "path": "Dassl.pytorch/dassl/engine/dg/crossgrad.py",
+      "sha256": "55771ce981fd8bb12629fe52a9a39e30d96d588552ce2558c90eec6f6e83f712"
+    },
+    {
+      "bytes": 5555,
+      "git_blob": "8d6d11c46db3464659fa3fc6605d3eb197056964",
+      "path": "Dassl.pytorch/dassl/engine/dg/daeldg.py",
+      "sha256": "d5390bbdcd8d1a61223ec8cb20e146d189ab506f74b41bc4c0ff839764d76309"
+    },
+    {
+      "bytes": 3709,
+      "git_blob": "b7fbd97348bc346731631c7f456ec02d8cd1e222",
+      "path": "Dassl.pytorch/dassl/engine/dg/ddaig.py",
+      "sha256": "d6a1b07732b705db91fef2b578e24d7922c40d5a5dbd7df962ccb5d8a663560f"
+    },
+    {
+      "bytes": 2735,
+      "git_blob": "654f2706f3c50e2ace45383c228e7784084d6b11",
+      "path": "Dassl.pytorch/dassl/engine/dg/domain_mix.py",
+      "sha256": "3b3956e6c91237040f3d8f4d4f17ce0ca590bb5a0f4ee7d78404b0856315e3cf"
+    },
+    {
+      "bytes": 946,
+      "git_blob": "e35f30a1d32935c3440f16e78eed4517fee56021",
+      "path": "Dassl.pytorch/dassl/engine/dg/vanilla.py",
+      "sha256": "f385c1282136c9779eda53a0a1c102449f81f0446218bd96c456a170a18e813f"
+    },
+    {
+      "bytes": 8178,
+      "git_blob": "2f4ae867ce68b9d6ef94dbe8d4269358caf4b5db",
+      "path": "Dassl.pytorch/dassl/engine/net.py",
+      "sha256": "f179a1ca619bfbd00a192777c05bbbc4b282936faeb27e64f60c96fd5554fdd7"
+    },
+    {
+      "bytes": 165,
+      "git_blob": "46fa781f701ad9b228317ffe69a741fc37799e53",
+      "path": "Dassl.pytorch/dassl/engine/ssl/__init__.py",
+      "sha256": "015d3582a1b0cd68c17a73d1480865fe0248135454d5e21bcb0cd6d374a73fc1"
+    },
+    {
+      "bytes": 1162,
+      "git_blob": "a17186a85eeceefb3537ac243ed88e4421e77bf4",
+      "path": "Dassl.pytorch/dassl/engine/ssl/entmin.py",
+      "sha256": "3d142862eb432afe0653766d35e450c7825223fdc47b6619c647cd834c474691"
+    },
+    {
+      "bytes": 4063,
+      "git_blob": "be6001f8d98a2c4193eeb6257c7859aaff26d673",
+      "path": "Dassl.pytorch/dassl/engine/ssl/fixmatch.py",
+      "sha256": "4cf65f35847958bc465a2e365c0a81e9f59b685de6f025afcd762effab8a755b"
+    },
+    {
+      "bytes": 1769,
+      "git_blob": "054dc490f7984d816c5e85ce695c33a9cc0b0b7b",
+      "path": "Dassl.pytorch/dassl/engine/ssl/mean_teacher.py",
+      "sha256": "cd6885f3d05e80195af44feef29dd8cadb629285604fc8ba5e6eeaebd3666bdd"
+    },
+    {
+      "bytes": 3119,
+      "git_blob": "6bb24e165ea8aba29fcadc720bb222b82df0f2f0",
+      "path": "Dassl.pytorch/dassl/engine/ssl/mixmatch.py",
+      "sha256": "9a114aff2e5847ac6e68fcdb4cee7d9b956a481a8720dc495015d726a8ac2328"
+    },
+    {
+      "bytes": 930,
+      "git_blob": "b2f5228e2cd640dad711a8aefb983ec092050627",
+      "path": "Dassl.pytorch/dassl/engine/ssl/sup_baseline.py",
+      "sha256": "e05224c352f8eda45d6402c9e13fd056ce1f759493154b98376107b159221b8f"
+    },
+    {
+      "bytes": 29023,
+      "git_blob": "91fe2b46f922e07a5f3a17c5e707e77553119d7a",
+      "path": "Dassl.pytorch/dassl/engine/trainer.py",
+      "sha256": "c48923215db8ecc8d14522c25e9fbe6c92990d2054f3cbf93a170646a891bfbf"
+    },
+    {
+      "bytes": 123,
+      "git_blob": "59a024f5a45d183f8505eaa24d4e59e1c28f4f60",
+      "path": "Dassl.pytorch/dassl/evaluation/__init__.py",
+      "sha256": "877d8f5762fa50d3c2394c5c0752e8e3fd78c65fa1f5b0acc9de36c0e7fa3642"
+    },
+    {
+      "bytes": 410,
+      "git_blob": "3132a3f401023615fb7bf6f31171d0360313ea8f",
+      "path": "Dassl.pytorch/dassl/evaluation/build.py",
+      "sha256": "b0030da809990b5a42b1b4c0fd6eda564ed17f856ac04d83d7dd93fb512e4aed"
+    },
+    {
+      "bytes": 4423,
+      "git_blob": "4baa99bac5072b3da4fa09a738c44903e1bfba0b",
+      "path": "Dassl.pytorch/dassl/evaluation/evaluator.py",
+      "sha256": "22edc5691256e2c3c523cc6ee3c4ec8c09d7cbb69924c893940917b202554280"
+    },
+    {
+      "bytes": 138,
+      "git_blob": "c2b37de85bc1b8efd3a10c64eb55978a54936f8b",
+      "path": "Dassl.pytorch/dassl/metrics/__init__.py",
+      "sha256": "aab20acedce5d9e1b370a28b3dc43c4a320685b996c3a79304900c0c80f27385"
+    },
+    {
+      "bytes": 972,
+      "git_blob": "a8ed0ae5403904f81db3f034d43c0213c41b6f76",
+      "path": "Dassl.pytorch/dassl/metrics/accuracy.py",
+      "sha256": "1826ef2dde1ed20c1674ef40d5d6f5a5475faae7eeea9da3aff8190bfb450441"
+    },
+    {
+      "bytes": 2247,
+      "git_blob": "80568151a80f87337ca7c458dc2516546c5e42d1",
+      "path": "Dassl.pytorch/dassl/metrics/distance.py",
+      "sha256": "0b53c3e95ab9c02d7eaf6c780311c1cfd8a64e5017ab762c77e832b9cc2a3371"
+    },
+    {
+      "bytes": 163,
+      "git_blob": "88466b9b248c8ad2ebc01f4f949c8afa95b3836a",
+      "path": "Dassl.pytorch/dassl/modeling/__init__.py",
+      "sha256": "9135c4492d32016444082a31714529ff392800ef4f2313042cf803b8b304ea0f"
+    },
+    {
+      "bytes": 1100,
+      "git_blob": "2351d81e39e61b470dcb8d4110dd89a0bc8900a0",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/__init__.py",
+      "sha256": "9f1302bc2c98cc38daa705fae888dab81d47965409ab1e5a8651af70af188509"
+    },
+    {
+      "bytes": 1908,
+      "git_blob": "2daff24338251d1d182a6bf6332e001c5cee8b4f",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/alexnet.py",
+      "sha256": "54095dd19ac913092fb51b7171892ec1c99040a6631411eacc9ce196bfd176ab"
+    },
+    {
+      "bytes": 336,
+      "git_blob": "b544d945d12d49914a271dbc3861a46d72dd9e6c",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/backbone.py",
+      "sha256": "800fd64f3ebc3d37f3721b4f62dfdaf1e8472bdd036c0dff8255bfb2fe4611d9"
+    },
+    {
+      "bytes": 358,
+      "git_blob": "61f4e4fed70e48c3cc6ce98e7b372adf688b5102",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/build.py",
+      "sha256": "ecc84da802b2326dfabb27dbe8007635c24d63bedace334524ad821a576247d7"
+    },
+    {
+      "bytes": 1819,
+      "git_blob": "deabded8b26f3d214ad46b04e7f782aec4e86112",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/cnn_digit5_m3sda.py",
+      "sha256": "ce7dd5fa49c90b6da47473ab2d0de47d96e51c1ab14ca8ab874bf6129ab67c2a"
+    },
+    {
+      "bytes": 3643,
+      "git_blob": "c523fa969fc6f7ee026d40b1645dd99075ddd3db",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/cnn_digitsdg.py",
+      "sha256": "7a6b93580de9c3cdea0832e4c9ec27aa5c4d54f011b3c973e9a2d9ecb53443dc"
+    },
+    {
+      "bytes": 1265,
+      "git_blob": "0c5101cecdc7223fa5171c6f118a81fdf662db96",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/cnn_digitsingle.py",
+      "sha256": "39d6ae34c7459115861bfd2672e0b957d332a414d4c4e1f9266e8674d62a8ca4"
+    },
+    {
+      "bytes": 370,
+      "git_blob": "20ee4333e0d4d749e61ba359a6596385e38a92f2",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/efficientnet/__init__.py",
+      "sha256": "98e9d7b401d60c93dc60d1f3df8f03eb73616e592b8e9e3404429f9ad6011d00"
+    },
+    {
+      "bytes": 13021,
+      "git_blob": "ed01261d5beba8f183a37e2bf5ee4dc8f9c1ab41",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/efficientnet/model.py",
+      "sha256": "fdb021b462b74b457d4d01dd74924ea61d8402a112c79544358278ca438f48cf"
+    },
+    {
+      "bytes": 15997,
+      "git_blob": "a4205061feb9e84209700511fe2e00cfc3499ea1",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/efficientnet/utils.py",
+      "sha256": "6afe3dc185afaba007139533699b3f9e4f32413935d255ad169f2000c9c10664"
+    },
+    {
+      "bytes": 4014,
+      "git_blob": "8c0708993e1d0c3f9c511d55c8ab75bd8a9ac6a7",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/preact_resnet18.py",
+      "sha256": "3a51de5794915f04dd737e26c61df3168477b6083141eeff574321408bc2e892"
+    },
+    {
+      "bytes": 18069,
+      "git_blob": "fc44448706e0dd40d514ee81afeeef8b1ba4745c",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/resnet.py",
+      "sha256": "c780f3bad16e95ba173ac83f36c83231b72443e337a107ffa3c62ddbc11e4acb"
+    },
+    {
+      "bytes": 22591,
+      "git_blob": "c4e08dedf04888a51a74bb3a1bf983dc95ec3e17",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/resnet_dynamic.py",
+      "sha256": "93713b225707365e90e9497096cee7ef095fcd86dac8b2b31f6c7081c082a06f"
+    },
+    {
+      "bytes": 3934,
+      "git_blob": "3f91491aa20870b47cea0a3b4e4bd73517273c8d",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/vgg.py",
+      "sha256": "c81278a47eaac1921589b9560893df8ad08df0989894a7d21814cc9ff4f2e0df"
+    },
+    {
+      "bytes": 6309,
+      "git_blob": "798e69cc07f0c2c8b98e8f609b40c33a68f8eb91",
+      "path": "Dassl.pytorch/dassl/modeling/backbone/wide_resnet.py",
+      "sha256": "be982abc5ecf65281891884e177f1585c47ecc2f270aa5a769234e93ddd81f8f"
+    },
+    {
+      "bytes": 81,
+      "git_blob": "e76fb8ccfda3ca0606f53df48f8573ef61513a51",
+      "path": "Dassl.pytorch/dassl/modeling/head/__init__.py",
+      "sha256": "90db749ad572ffe67ab499f1cd05348ab51f8ba7080e1491dc6c91661095ad64"
+    },
+    {
+      "bytes": 326,
+      "git_blob": "730437b62aea1d561711aafa1d76ef066476054d",
+      "path": "Dassl.pytorch/dassl/modeling/head/build.py",
+      "sha256": "d569803004150db4ae01aee23aa02a3f1d55aa3fc2fea2ea0ff6d86dd9fd6259"
+    },
+    {
+      "bytes": 1202,
+      "git_blob": "89aae50eb86b201daaad10aa99aa2384135c1798",
+      "path": "Dassl.pytorch/dassl/modeling/head/mlp.py",
+      "sha256": "8914f18629ba2e51b0b5a6b701cedfb90a8285901cf534d81fe252c040c203e9"
+    },
+    {
+      "bytes": 164,
+      "git_blob": "a6fcc638d4b1c8bf4054611933643db375635c5b",
+      "path": "Dassl.pytorch/dassl/modeling/network/__init__.py",
+      "sha256": "8d0bfc958c4d5d2d3c737badd0e801b94173887b75b7f2a580cde0b8d0dffdd3"
+    },
+    {
+      "bytes": 346,
+      "git_blob": "e615314fb6406a5c01c9b0ea61dee32bca4f8e2d",
+      "path": "Dassl.pytorch/dassl/modeling/network/build.py",
+      "sha256": "7260aacd16bb4b9f04dd928c892783f6f24f1180b40cd177ca0ac8ea8b5a517c"
+    },
+    {
+      "bytes": 9613,
+      "git_blob": "17e3bdd25b74032ad4935c3747403a349999389d",
+      "path": "Dassl.pytorch/dassl/modeling/network/ddaig_fcn.py",
+      "sha256": "bb04c6719301cca7833b8096499a969d15d5c44740b1ddb8038deb9693a48b18"
+    },
+    {
+      "bytes": 1006,
+      "git_blob": "f0508eb81a58a52c238cc8ef349ff9e189f8f3cf",
+      "path": "Dassl.pytorch/dassl/modeling/ops/__init__.py",
+      "sha256": "e0010d69f08b9cae9f126c3e2f2a87e14bfcc2034afbb0ef2185561f3c48206b"
+    },
+    {
+      "bytes": 904,
+      "git_blob": "16ddcdab4d551e65fd588b87638efbed89b4c0e6",
+      "path": "Dassl.pytorch/dassl/modeling/ops/attention.py",
+      "sha256": "fefd9eedcb4a65cfbfd3a3cc764ea67c9f4cf22818ff89f7c241e35e961833db"
+    },
+    {
+      "bytes": 3021,
+      "git_blob": "fcee716fe1caa5a01cc03eb6f33230c01fd700fb",
+      "path": "Dassl.pytorch/dassl/modeling/ops/conv.py",
+      "sha256": "753d90364239bbd557f4336932f34484e3e04bca45cb3a6f286b1a19808ff524"
+    },
+    {
+      "bytes": 5895,
+      "git_blob": "e1f0a8b58e8da0d31f19f030d2fe4078bfffbe42",
+      "path": "Dassl.pytorch/dassl/modeling/ops/cross_attn.py",
+      "sha256": "4dd20d37bab734bf12535ad126bb5486982db3e9bd6587c1c84fdec9cfb33eb6"
+    },
+    {
+      "bytes": 1033,
+      "git_blob": "21723b026d6f846e96b49c31943c52a21677f277",
+      "path": "Dassl.pytorch/dassl/modeling/ops/cross_entropy.py",
+      "sha256": "dffbe6ecad5030450f000f123f7666f6a85eb28e020e68e19fb1c8f923005ee6"
+    },
+    {
+      "bytes": 1159,
+      "git_blob": "e3ee35509d16a3a3d4ee6d5d963b12aab62eb1e7",
+      "path": "Dassl.pytorch/dassl/modeling/ops/dsbn.py",
+      "sha256": "b27d26c24610689fbf24e9ad9628b8d3485546922d1d6599f974d1ee39173bee"
+    },
+    {
+      "bytes": 6162,
+      "git_blob": "3f3150c909789c3723d20793b300ee173c243df4",
+      "path": "Dassl.pytorch/dassl/modeling/ops/dsu.py",
+      "sha256": "e61239990b58c79d0764fb51b303bf93016ec2bc4860da0880aadb8259e613fe"
+    },
+    {
+      "bytes": 3159,
+      "git_blob": "af58815af3619c3b3b8a19f45ec186ec5d49787b",
+      "path": "Dassl.pytorch/dassl/modeling/ops/efdmix.py",
+      "sha256": "fd686d6cd420abf230f665ef185c33c11a5ba544b01b837c6c8bb5cce8ebe2cb"
+    },
+    {
+      "bytes": 3257,
+      "git_blob": "bd0efb1ebb97f1d5992808d56172f6d77c17ffe6",
+      "path": "Dassl.pytorch/dassl/modeling/ops/mixstyle.py",
+      "sha256": "48ee822c82615332383266a599cfeaf157e3258478ccddee90447eaeea8f8482"
+    },
+    {
+      "bytes": 774,
+      "git_blob": "5844074a6aaa72bf9ca8be7f3ec5f7a646b144de",
+      "path": "Dassl.pytorch/dassl/modeling/ops/mixup.py",
+      "sha256": "0910aa17958c481220ab759c5bb7594008da4f5f6fb870e16655154d4edcf2c7"
+    },
+    {
+      "bytes": 3082,
+      "git_blob": "a23fa575cc5722a1079176c378dc96c10029510e",
+      "path": "Dassl.pytorch/dassl/modeling/ops/mmd.py",
+      "sha256": "8a1631f9f61966cdbdd6f76ebb6edde15e6ca19de660f7ac0c4e98b19f8045e8"
+    },
+    {
+      "bytes": 6667,
+      "git_blob": "17efea0ace73348202ab69dbe36c6913174bfa3f",
+      "path": "Dassl.pytorch/dassl/modeling/ops/oma.py",
+      "sha256": "44417c916dad5f1965786911579d326a96938242b2abcd2bdc90bdf0a1e66cf7"
+    },
+    {
+      "bytes": 4663,
+      "git_blob": "128ea96b33e877bd9e992414ac0e744f0d311438",
+      "path": "Dassl.pytorch/dassl/modeling/ops/optimal_transport.py",
+      "sha256": "9a5e3fe1c45dce603319e8744b8b1a643b07691688e82d8ad937de40420f032c"
+    },
+    {
+      "bytes": 845,
+      "git_blob": "34bab9db2ab1eafe369aae02ba5856bd8fa15bf8",
+      "path": "Dassl.pytorch/dassl/modeling/ops/reverse_grad.py",
+      "sha256": "91cc7a68fb7117a3d726708f685861cd7997a41bb018a0a6d98c6cecaf060d87"
+    },
+    {
+      "bytes": 427,
+      "git_blob": "47a83834f3188db78e336d809d0f94e7546792ca",
+      "path": "Dassl.pytorch/dassl/modeling/ops/sequential2.py",
+      "sha256": "7446ad88522611a0fb097eeda352fb54035e17c72b98b44e4697785c94fe767a"
+    },
+    {
+      "bytes": 2631,
+      "git_blob": "d9905f7e371b3111517368df361c4064b0df5c15",
+      "path": "Dassl.pytorch/dassl/modeling/ops/style_insert.py",
+      "sha256": "6b0bf522569268e251a881cc83a7fac8cd6c48ae509ec9c7505def8fb6eae24c"
+    },
+    {
+      "bytes": 4669,
+      "git_blob": "453db773d77d9661f52e32447662bff3d30e5c9a",
+      "path": "Dassl.pytorch/dassl/modeling/ops/transnorm.py",
+      "sha256": "a1ae7f72e3bdfa956c57c79c4ba3d229940d1cd825819f9481033200712f7d2c"
+    },
+    {
+      "bytes": 2034,
+      "git_blob": "6bfcc898f62d6c642726b3a05cd3d586872ebc07",
+      "path": "Dassl.pytorch/dassl/modeling/ops/utils.py",
+      "sha256": "1d12c731451d762ff1cdb47084d6b29f802facd81166b5a74a49112047667766"
+    },
+    {
+      "bytes": 84,
+      "git_blob": "e7ef4c04212eb6f030baa075af8d7e367a229b82",
+      "path": "Dassl.pytorch/dassl/optim/__init__.py",
+      "sha256": "3f83afa74e14d5eec9ad10b510ffc955d8ce54f2fcd8a45f479eb0cd5372c474"
+    },
+    {
+      "bytes": 4164,
+      "git_blob": "48d58853abee02b4f11bf20eab6d942bdf26c018",
+      "path": "Dassl.pytorch/dassl/optim/lr_scheduler.py",
+      "sha256": "2e55a69398a73e29fba413076b7c486cb261d8bc495f0f03cc538c23dd8f9bf0"
+    },
+    {
+      "bytes": 4140,
+      "git_blob": "32d677208db373fe3a4586c2e4658233ffe97f7e",
+      "path": "Dassl.pytorch/dassl/optim/optimizer.py",
+      "sha256": "28c8dd28ed46e188a6a292d2511499105c3d03f7066672ca73eeac54b453eafd"
+    },
+    {
+      "bytes": 11648,
+      "git_blob": "f4c1989f5438edae5573775a26ac723f128c0682",
+      "path": "Dassl.pytorch/dassl/optim/radam.py",
+      "sha256": "b7197851cabe700ce024453a9602dcb498538a4c13d6e55b03cbdf6bbd9af0d4"
+    },
+    {
+      "bytes": 115,
+      "git_blob": "c47679fda46f1f049313e1ff5866f97d4cf41485",
+      "path": "Dassl.pytorch/dassl/utils/__init__.py",
+      "sha256": "011968995da796bf0e1aae8c4f36c4e4f1c1762fe22a5b22f82c6a1fcb5e4f4a"
+    },
+    {
+      "bytes": 1703,
+      "git_blob": "d5e680a0e4adff730d67bd7aec65e983ab2423d4",
+      "path": "Dassl.pytorch/dassl/utils/logger.py",
+      "sha256": "982b4acdbcd25e3bf5d8454f7dafb75b329140b92f81bac9f9c2fb94357f37c7"
+    },
+    {
+      "bytes": 2162,
+      "git_blob": "a779b5915386a47a62e3a44d8260cc8d79a0c634",
+      "path": "Dassl.pytorch/dassl/utils/meters.py",
+      "sha256": "d41b318ed0a109d59be3f344533e6121059dbb87143782b32e2ef20dec2aa5a9"
+    },
+    {
+      "bytes": 1709,
+      "git_blob": "5079784e6155f1888803b3960576ceb972411ab9",
+      "path": "Dassl.pytorch/dassl/utils/registry.py",
+      "sha256": "531c83ee95fd3b80f0f375291e9423262f8f7b2d055567a70e2b25d1d632bb2f"
+    },
+    {
+      "bytes": 4365,
+      "git_blob": "62d4f30746a2d387fc3a97f4e6f67a3227a26c28",
+      "path": "Dassl.pytorch/dassl/utils/tools.py",
+      "sha256": "684431d32016e998ad3d628e561cf2500c8d69572278d04efd81844683fe644f"
+    },
+    {
+      "bytes": 10227,
+      "git_blob": "2e14fa31fa4c02702c738b5889fa003e51e00a98",
+      "path": "Dassl.pytorch/dassl/utils/torchtools.py",
+      "sha256": "8e65ddd145950121ff3e9427d414d801c0c15aaf50b2612cd41069c53b2cd8c9"
+    },
+    {
+      "bytes": 2383,
+      "git_blob": "52c16aad44e0bd10adc3dbd08c7641905bf21bcb",
+      "path": "Dassl.pytorch/datasets/da/cifar_stl.py",
+      "sha256": "37396215117830bd926167424cb4b65c9bc8aee611e25d5a27397b75a311fb09"
+    },
+    {
+      "bytes": 3771,
+      "git_blob": "500511dc8bf118e32f750271505e786513038fa6",
+      "path": "Dassl.pytorch/datasets/da/digit5.py",
+      "sha256": "d436de678095c5bbe6e6689db8669bd526a0a5bdc989894fbc603f283fc5e807"
+    },
+    {
+      "bytes": 801,
+      "git_blob": "ce98d313c7a43f39bbf02d694d5d50d50fed06b1",
+      "path": "Dassl.pytorch/datasets/da/visda17.sh",
+      "sha256": "893ee9dcd7d8b7e78fc9f76d8c88e1c5087bc8e019323fae14602e1b39c14a48"
+    },
+    {
+      "bytes": 2165,
+      "git_blob": "f407f85850e13c204250ba55868cfcd24359d9c2",
+      "path": "Dassl.pytorch/datasets/dg/cifar_c.py",
+      "sha256": "6a3399afc470606e11f1d152febe5002051ae4748bd0522427153c24bd2e7439"
+    },
+    {
+      "bytes": 1528,
+      "git_blob": "ad9aa11cb4d6b7da8e36090a2a1713f4469a78f1",
+      "path": "Dassl.pytorch/datasets/ssl/cifar10_cifar100_svhn.py",
+      "sha256": "eccc2022fc0b5715a6a05b5c02433c9a46ea1039b11e265239ea2285755310cd"
+    },
+    {
+      "bytes": 1171,
+      "git_blob": "3f2ed2cb8c589a9281583e0b3094f2460322b9eb",
+      "path": "Dassl.pytorch/datasets/ssl/stl10.py",
+      "sha256": "b7d4dc96cf527eebf90ef3171c49227dc96d08cd057b77f66a3bf7496609424a"
+    },
+    {
+      "bytes": 150,
+      "git_blob": "9db34f9f86e44fad1263758a6ccaf09eb816c11a",
+      "path": "Dassl.pytorch/linter.sh",
+      "sha256": "f718e059e9c57dd1b7cd3f4b261af8babffa750ee3c6a8416fe562620ec041cb"
+    },
+    {
+      "bytes": 127,
+      "git_blob": "d8dbbdfbfa4dae18f63dc2861550040b9b0ebe77",
+      "path": "Dassl.pytorch/requirements.txt",
+      "sha256": "ac382438ac8c0051d57fc9f0462785fc1dc63f0edae356745cb530110be0132d"
+    },
+    {
+      "bytes": 1237,
+      "git_blob": "b0cbe47b3e0e9bd714e16af1cacea793bdcc4b33",
+      "path": "Dassl.pytorch/setup.py",
+      "sha256": "77b327e2d5d4ab77798f2bc6588162c5621c51690e5dab20768a69788f6a8dc2"
+    },
+    {
+      "bytes": 4655,
+      "git_blob": "d5105adda4e5385c9439a636acbb1d9cc07dbc0c",
+      "path": "Dassl.pytorch/tools/parse_test_res.py",
+      "sha256": "c94a1c8b9ed7908ca44ea9f4ad9e909bccba52943c58bb5faebf2dc1f51a620e"
+    },
+    {
+      "bytes": 1957,
+      "git_blob": "71761544070594034f93afbb75714ebe5177ffcc",
+      "path": "Dassl.pytorch/tools/replace_text.py",
+      "sha256": "ded96adcdaa59d30b161903fbdffefc062b10b25c6ea56badd409ab5c3784546"
+    },
+    {
+      "bytes": 4855,
+      "git_blob": "cb81c3eb481f7f5bac3ee481745fe3c9952441c6",
+      "path": "Dassl.pytorch/tools/train.py",
+      "sha256": "8abb8f03927a5549c7866728b769f7577cd4775046c9efe010effb59cd3a474a"
+    },
+    {
+      "bytes": 3154,
+      "git_blob": "eb44cac70624ee502c107356c023d6dba31f5608",
+      "path": "README.md",
+      "sha256": "62a2bfc285de21961d9f54b7f26d898aa243743b32fe5a8af78b3bc56c4f6f33"
+    },
+    {
+      "bytes": 193,
+      "git_blob": "1082fc10fbbcb283dcd256c2706c9f3a2c81a168",
+      "path": "StableFDG/Federated Domin Generalization/Image Classification/configs/trainers/StableFDG/digits_dg_random.yaml",
+      "sha256": "dc674147fef2eaddd0af7db2e0149e142ae8a39d915e285727b20f8c6ad35d5a"
+    },
+    {
+      "bytes": 211,
+      "git_blob": "a8ae68f8445afcf0d2bef2d10768edb5bdfa9d18",
+      "path": "StableFDG/Federated Domin Generalization/Image Classification/configs/trainers/StableFDG/office_home_dg_random.yaml",
+      "sha256": "60fe00e2abf815d30d8bfd71c206ed4094a4f2722fc1e3216831d9f3a3c1e940"
+    },
+    {
+      "bytes": 206,
+      "git_blob": "5e7e69b39bf02b446b82e9388fb5d9e8369ae404",
+      "path": "StableFDG/Federated Domin Generalization/Image Classification/configs/trainers/StableFDG/pacs_random.yaml",
+      "sha256": "63e6e254eb6b9cad408cd8128990b376b25d5aa611892d884576c4970c10fead"
+    },
+    {
+      "bytes": 206,
+      "git_blob": "5e7e69b39bf02b446b82e9388fb5d9e8369ae404",
+      "path": "StableFDG/Federated Domin Generalization/Image Classification/configs/trainers/StableFDG/vlcs_random.yaml",
+      "sha256": "63e6e254eb6b9cad408cd8128990b376b25d5aa611892d884576c4970c10fead"
+    },
+    {
+      "bytes": 4752,
+      "git_blob": "771e4fba3fc890996ec23a4691d8d5905abb0595",
+      "path": "StableFDG/Federated Domin Generalization/Image Classification/parse_test_res.py",
+      "sha256": "130bf7dd60721ccdf81140bf67106dd93cae71d012aa06204c0a92a621751def"
+    },
+    {
+      "bytes": 1836,
+      "git_blob": "8d9204f5b9a023ccfc2091d9558c0d8bc5d9b3f2",
+      "path": "StableFDG/Federated Domin Generalization/Image Classification/scripts/StableFDG.sh",
+      "sha256": "a25c82488341808f21241642bf42358002fec4f893d31c6efe5ae405d4d0be74"
+    },
+    {
+      "bytes": 8370,
+      "git_blob": "e8cdf97490d1177d60dba08d5218785b898c6ed3",
+      "path": "StableFDG/Federated Domin Generalization/Image Classification/train.py",
+      "sha256": "2504fe5ef37850c976aa24fa3e22d165136409dda65d02e9c4c5df5a83352651"
+    },
+    {
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "StableFDG/Federated Domin Generalization/Image Classification/trainers/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 8855,
+      "git_blob": "aae6a74ff721a72704cae54b9a3b35a1829cf54a",
+      "path": "StableFDG/Federated Domin Generalization/Image Classification/trainers/vanilla2.py",
+      "sha256": "9f41bb0b4b3e60cfe9d0ad1cab498868965cf23fe5b0b69d06e4a3c84cd4400e"
+    },
+    {
+      "bytes": 4217,
+      "git_blob": "1dede73fccf5d4e7b3d0746db3d58aba66d499c9",
+      "path": "StableFDG/Federated Domin Generalization/Image Classification/vis.py",
+      "sha256": "0e7c80db323c4e14ef88f5fbe95a99570fc3f86487e43245557eeba1dfe0298b"
+    },
+    {
+      "bytes": 1883,
+      "git_blob": "83d68d2027236550132b13d5b1fc203d984ef546",
+      "path": "requirements.txt",
+      "sha256": "32896932657f7d640781a359e30b43afd83afb317ef0d1269f42b1c301dc0e11"
+    }
+  ],
+  "installer_version": 2,
+  "provides": [
+    "StableFDG"
+  ],
+  "repository": "https://github.com/savertm/StableFDG_github"
+}

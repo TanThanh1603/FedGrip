@@ -27,8 +27,8 @@ def get_fedavg_style_argparser():
 
 class FedAvgStyleServer(FedAvgServer):
     def initialize_model(self):
-        if self.args.mu_on or self.args.augment:
-            raise ValueError("FedAvg style comparison requires mu_on=0 and augment=False")
+        if self.args.augment:
+            raise ValueError("FedAvg style comparison requires augment=False")
         if not self.args.model.startswith("mobile"):
             raise ValueError("FedAvg style comparison requires a MobileNet backbone")
         super().initialize_model()

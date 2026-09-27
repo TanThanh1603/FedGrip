@@ -48,10 +48,6 @@ class GAServer(FedAvgServer):
             ]
             sum_weight_prime = sum(weight_list_prime)
             weight_list = [weight / sum_weight_prime for weight in weight_list_prime]
-        if self.mu_aggregator is not None:
-            weight_list = self.mu_aggregator.compute(
-                weight_list, getattr(self, "round_id", 0)
-            )
         return weight_list
 
     def aggregate_model(self):

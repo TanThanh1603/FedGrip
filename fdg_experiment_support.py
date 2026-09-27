@@ -31,13 +31,7 @@ PARTITION_FILES = (
 TRAINING = dict(
     model="mobile3l", round=10, num_epochs=3, batch_size=32,
     lr=.001, optimizer="adam", weight_decay=.0001, augment=False,
-    test_gap=1, save_log=True, mu_warmup_rounds=2,
-    mu_validation_folds=3, mu_max_validation_samples_per_domain=384,
-    mu_isolate_probe_rng=1, mu_probe_seed=104729,
-    diu_probe_mass=.1, diu_rarity_power=.5, diu_loss_shrinkage=4.,
-    diu_count_smoothing=1., diu_interaction_strength=.5,
-    diu_ap_mad_penalty=.5, diu_ap_relative_margin=.002,
-    diu_utility_scale_floor=.001,
+    test_gap=1, save_log=True,
 )
 
 
@@ -58,6 +52,8 @@ class AppendLogger(Logger):
 
 
 def configuration(method, variant, dataset, seed):
+    if variant != "baseline":
+        raise ValueError(f"Unsupported variant: {variant}")
     module = importlib.import_module("algorithm.server." + METHODS[method])
     parser = getattr(module, "get_" + METHODS[method] + "_argparser")
     config = vars(parser().parse_args([]))
@@ -66,9 +62,6 @@ def configuration(method, variant, dataset, seed):
         dataset=dataset,
         seed=seed,
         optimizer="adam",
-        mu_on=int(variant == "diu_ap"),
-        mu_domain_balanced_prior=int(variant == "diu_ap"),
-        mu_utility_blend=.7,
     )
     for key in ("output_dir", "partition_info_dir", "use_cuda"):
         config.pop(key, None)

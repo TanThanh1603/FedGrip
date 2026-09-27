@@ -26,8 +26,6 @@ class FedOMGServer(FedAvgServer):
 
     def __init__(self, algo="FedOMG", args=None):
         parsed = get_fedomg_argparser().parse_args() if args is None else args
-        if getattr(parsed, "mu_on", 0):
-            raise ValueError("FedOMG and DIU/AP cannot be enabled together")
         super().__init__(algo=algo, args=parsed)
         self.fedomg_config = FedOMGConfig(
             meta_lr=self.args.fedomg_meta_lr,

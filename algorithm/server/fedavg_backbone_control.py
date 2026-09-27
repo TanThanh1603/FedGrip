@@ -59,7 +59,7 @@ class FedAvgBackboneControlServer(FedAvgServer):
         self.control_variant = self.args.backbone_control_variant
         if self.control_variant not in VARIANTS:
             raise ValueError(f"Unknown backbone control: {self.control_variant}")
-        if self.args.mu_on or self.args.augment:
+        if self.args.augment:
             raise ValueError("Backbone-control comparison requires plain FedAvg")
         FedAvgServer.initialize_model(self)
         if not hasattr(self.classification_model, "base"):

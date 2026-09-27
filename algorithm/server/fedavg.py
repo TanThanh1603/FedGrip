@@ -27,11 +27,6 @@ from model.models import get_model_arch
 from data.partition_data import ALL_DOMAINS
 from data.dataset import FLDataset
 from algorithm.client.fedavg import FedAvgClient
-from algorithm.aggregation import (
-    DeficitInteractionUtilityAggregator,
-    DeficitInteractionUtilityConfig,
-    add_mu_argparser,
-)
 from matplotlib.lines import Line2D
 
 
@@ -81,21 +76,6 @@ def get_fedavg_argparser():
     # parser.add_argument("--momentum", type=float, default=0.9, help="Momentum for SGD optimizer")
     parser.add_argument("--weight_decay", type=float, default=0.0001)
     parser.add_argument("--test_gap", type=int, default=1)
-    parser.add_argument(
-        "--mu_on",
-        type=int,
-        choices=[0, 1],
-        default=0,
-        help="enable the official DIU + Adaptive Prior client weighting",
-    )
-    parser.add_argument(
-        "--mu_domain_balanced_prior",
-        type=int,
-        choices=[0, 1],
-        default=0,
-        help="use domain-balanced prior instead of sample-size prior",
-    )
-    parser = add_mu_argparser(parser)
     return parser
 
 
@@ -138,12 +118,6 @@ class FedAvgServer:
         self.initialize_model()
         self.initialize_dataset()
         self.initialize_clients()
-        self.mu_aggregator = None
-        if getattr(self.args, "mu_on", 0) == 1:
-            diu_config = DeficitInteractionUtilityConfig.from_args(self.args)
-            self.mu_aggregator = DeficitInteractionUtilityAggregator(
-                self, config=diu_config
-            )
 
     def initialize_logger(self):
         stdout = Console(log_path=False, log_time=False)
@@ -176,45 +150,14 @@ class FedAvgServer:
         ]
 
     def get_agg_weight(self) -> List[float]:
-        # Get the weight of each client at the time of aggregation
-        if (
-            self.mu_aggregator is None
-            and getattr(self.args, "mu_domain_balanced_prior", 0) == 1
-        ):
-            # Fix 1: Domain-balanced prior
-            client_domains = [client.dataset.client_data[client.client_id]["domain"][0] for client in self.client_list]
-            unique_domains = list(dict.fromkeys(client_domains)) # preserve order
-            num_domains = len(unique_domains)
-            domain_weight = 1.0 / num_domains
-            
-            domain_total_samples = {d: 0 for d in unique_domains}
-            for client in self.client_list:
-                domain = client.dataset.client_data[client.client_id]["domain"][0]
-                domain_total_samples[domain] += len(client.train_loader.dataset)
-                
-            weight_list = []
-            for client in self.client_list:
-                domain = client.dataset.client_data[client.client_id]["domain"][0]
-                client_samples = len(client.train_loader.dataset)
-                weight = domain_weight * (client_samples / domain_total_samples[domain])
-                weight_list.append(weight)
-        else:
-            # Sample-size prior (standard FedAvg)
-            num_data_each_client = [
-                len(client.train_loader.dataset) for client in self.client_list
-            ]
-            num_total_data = sum(num_data_each_client)
-            weight_list = [num_data / num_total_data for num_data in num_data_each_client]
-
-        if self.mu_aggregator is not None:
-            weight_list = self.mu_aggregator.compute(
-                weight_list, getattr(self, "round_id", 0)
-            )
+        num_data_each_client = [
+            len(client.train_loader.dataset) for client in self.client_list
+        ]
+        num_total_data = sum(num_data_each_client)
+        weight_list = [num_data / num_total_data for num_data in num_data_each_client]
         self.logger.log(
             f"{local_time()}, {self.algo} Aggregation, "
-            f"Mode: {'MU' if self.mu_aggregator is not None else 'Standard'}, "
-            f"Weighting: "
-            f"{self.mu_aggregator.weighting_mode if self.mu_aggregator is not None else 'fedavg'}, "
+            f"Weighting: fedavg, "
             f"Weights: {[round(weight, 4) for weight in weight_list]}"
         )
         return weight_list
